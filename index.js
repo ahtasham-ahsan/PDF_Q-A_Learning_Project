@@ -27,7 +27,7 @@ const askQuestion = (query) => {
     const query = await askQuestion("\nAsk Question (or 'exit' to quit): ");
     if (query.toLowerCase() === "exit") break;
 
-    const resp = await chain.call({ question: query });
+    const resp = await chain.invoke({ question: query });
     console.log("\nAnswer:", resp.content);
   }
 
