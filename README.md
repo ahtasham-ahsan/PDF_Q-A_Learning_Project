@@ -35,3 +35,6 @@ This is a Retrieval-Augmented Generation (RAG) project that lets you **ask quest
 ```bash
 git clone https://github.com/your-username/pdf-qa-weaviate-langchain.git
 cd pdf-qa-weaviate-langchain
+npm install
+node index.js
+```
