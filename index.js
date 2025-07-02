@@ -17,12 +17,18 @@ const askQuestion = (query) => {
 (async () => {
   const pdfText = await loadPDF("./Sample.pdf");
   const chain = await createRAGChain(pdfText);
+  if (!chain) {
+    console.error("❌ Chain could not be created. Exiting.");
+    rl.close();
+    process.exit(1);
+  }
 
   while (true) {
-    const query = await askQuestion("\n Ask Question ");
+    const query = await askQuestion("\nAsk Question (or 'exit' to quit): ");
     if (query.toLowerCase() === "exit") break;
-    const resp = await chain.call({ query });
-    console.log("\n Answer: ", resp.text);
+
+    const resp = await chain.call({ question: query });
+    console.log("\nAnswer:", resp.content);
   }
 
   rl.close();
