@@ -1,0 +1,3194 @@
+
+
+ 1 
+Chapter 01  : Basics of Information Technology 
+ 
+1.0 Overview 
+ 
+Q : 01-00-01 : What is a Global Village ? Define or Describe Global Village ? 
+Q : 01-00-01 : How the World has become a Global Village today ? 
+Answer : 
+Information is the key factor in this era and is the most precious commodity today. Everything 
+evolves around information and communication which play key role in the functionality and 
+existence of each system. Information Technology (IT) has virtually made one-community area 
+“Global Village”. The computer users are almost always sharing and exchanging their information 
+in such a manner as if they are sitting in a drawing room face to face. 
+ 
+Q : 01-00-02 : What is Data ? Define or Describe Data ? 
+Answer : 
+The raw facts and figures, that are, not meaningful. These are used in processing to produce 
+meaningful information. 
+ 
+Q : 01-00-03 : What is Information ? Define or Describe Information ? 
+Answer : 
+The facts and figures about anything i.e. The know-how about any object that exists and plays its role 
+in any system. This must be meaningful. 
+ 
+Q : 01-00-04 : What is System ? Define or Describe System ?  
+Answer : 
+The system is any identified and known work that accepts data / information into itself, manipulates 
+in the shape of certain output(s) and delivers so that it becomes useful and meaningful. 
+  
+Q : 01-00-05 : What is Information Technology ? Define or Describe IT ?  
+Answer : 
+Information Technology or IT” merges computing with high speed communication links carrying 
+data in the form of text, sound, images, video etc, from place to place over the World. The computer 
+systems are networked in such a way that the data / information stored / processed on them is always 
+available from anywhere, at any place, at any moment.  
+ 
+Q : 01-00-06 : What is Digital Convergence ? Define or Describe Digital 
+Convergence ?  
+Answer : 
+The "Digital Convergence" is the technological merger of various industries / enterprises through 
+some electronic gadgets that exchange information between them. It means that from a common 
+electronic base, information can be communicated to any shape that the users are accustomed to see 
+i.e. photographs, movies, audio, graphical shapes, text form, analog diagrams etc. 
+ 
+Q : 01-00-07 : What is The Modern Scenario of IT ? Define, Describe or 
+Discuss Briefly The Modern Scenario of IT ? 
+  
+
+ 2 
+Answer : 
+The impact of IT has broadened the base of computing and communication through satellite, fiber-
+optic, mobile phone, fax machine, multi- media / hyper-media, e-commerce, m-commerce etc. etc. 
+Fantastic scenario of computer utilization is in the fields like : 
+a. Artificial Intelligence  
+b. Web-based Applications  
+c. E-commerce, M-commerce (Mobile Commerce)  
+d. Computer Animation  
+e. Multi-media, Hyper-media  
+f. Distributed Computing  
+ 
+1.01 Hardware and Software 
+ 
+Q : 01-01-01 : What is Hardware ? Define or Describe Hardware ? 
+Answer : 
+The physical parts of a machine or computer which we can see, touch or have weight. Input and 
+output devices are part of the machine hardware. 
+ 
+Q : 01-01-02 : What is Machine ? Define or Describe Machine ? 
+Answer : 
+A “MACHINE” is hardware. It is an artifact (man made) used to accomplish a well defined task. 
+ 
+Q : 01-01-03 : What is Software ? Define or Describe Software ? 
+Answer : 
+A program is called software, it is not hardware, it has the instructions and data for processing in the 
+computer. 
+ 
+Q : 01-01-04 : What is Computer System ? Define or Describe Computer System ? 
+Answer : 
+[A “COMPUTER” is a machine that can be programmed to accept data (input), process it into useful 
+information (output), and store it away (in a secondary storage device) for safekeeping or later 
+reuse]. Input and output devices are part of the machine that can be called “Complete Computer 
+System”. 
+ 
+The related important definitions are : 
+Input Devices : Accept data in a form that the computer can use, and then sends it to the processing 
+unit. 
+CPU : The central processing Unit (CPU) or processor, has the electronic circuitry that manipulates 
+(as ordered in program or instructions) input data into the form of useful information. The processor 
+executes the instructions (Programs) in a logical sequence. 
+Output Devices : Show us the processed data i.e. information, in the shape we want it. 
+Primary Storage, Main Memory or Random Access Memory (RAM) : It can hold data and 
+programs only temporarily. Data on RAM is lost when we shut down the computer. 
+Secondary Storage : Usually called storage, which consists of secondary storage devices, such as 
+hard disk, floppy diskettes, CDs, DVDs etc which can store data and programs outside the computer 
+
+ 3 
+itself. This data persists between two sessions of computer (when we use computer after first shutting 
+it down, the programs and data remain intact). These devices actually supplement main memory or 
+RAM. 
+ 
+Q : 01-01-05 : Briefly Describe Software and give its classification ? 
+Answer : 
+Software : A program or instructions, it is not hardware, it has the instructions and data for 
+processing in the computer. 
+System Software : Controls the usage and allocation of different hardware components / devices and 
+enables the other (user) application programs to execute. Operating Systems, Utility Programs 
+(Backup/Restore) or Drivers etc. 
+Application Software : A software that has been developed to solve a specific (user) problem. 
+Custom-Built Software : This software is designed and developed for a particular customer. 
+Packaged software : Off-the-shelf programs or components, developed for sale to the 
+potential users for examples MS-Word, MS-Excel, Oracle etc. 
+ 
+1.02  Input and Output Devices 
+ 
+Q : 01-02-01 : What is Keyboard ? Define or Describe Keyboard ? 
+Answer : 
+The keyboard may look like a typewriter keypad to which some special keys have been added. The 
+keys normally available on the keyboards are Numeric, Alphabetic, Function and additional Special-
+purpose keys. 
+ 
+Q : 01-02-02 : Briefly Describe Pointing Devices used for input ? 
+Answer : 
+[Pointing devices control the position of the cursor or pointer on the screen]. 
+ 
+Mouse : It is an input device that looks a little bit like a mouse. It has a ball on its underside (now we 
+have optical mouse which has optical censor underside) that is rolled on a flat surface or mouse-pad. 
+The rolling movement causes a corresponding cursor movement on the screen. It also has buttons 
+often used to click on icons to invoke the command.  
+Trackball : The trackball is a movable ball, on top of a stationary device (laptop), that is rotated with 
+fingers or palm of the hand. It looks like the mouse turned upside down and has additional buttons 
+for various functions. 
+Pointing Stick : It looks like a pencil eraser protruding from the keyboard between the G, H, and B 
+keys. We move the pointing stick with our forefinger while using the thumb to press buttons located 
+in front of the space bar. 
+Joystick : It consists of a vertical handle like a gearshift lever mounted on a base with one or two 
+buttons. It is used in video games. 
+Touch Pad : It is a small, flat surface over which we slide our finger, using the same movements as 
+we would with a mouse. As we move the finger, the cursor follows the movement. We “click” by 
+tapping the finger on the pad’s surface or by pressing button positioned close by the pad. 
+Touch Screen : A touch screen is a video display screen that is sensitized to receive input from 
+simply touching our fingers onto it. It is covered with a plastic layer, behind which are invisible 
+beams of infrared light. We simply touch the provided buttons or menus and get the information on 
+
+ 4 
+the display screen.  
+Light Pen : A light-sensitive Stylus, or pen-like device, connected by a wire to the computer 
+terminal. The user brings the pen to a desired point on the display screen and presses the pen button, 
+which identifies that screen location to the computer. Engineers, graphic designers, and illustrators 
+use light pens. 
+Digitizing / Graphic Tablet : A tablet connected by a wire to a stylus or puck. A stylus is a pen-like 
+device with which the user “sketches” an image. A puck is a copying device with which the user 
+copies an image, such as an architectural drawing or a civil engineering map. A puck looks a bit like 
+a mouse but has different types of buttons and a clear plastic section extending from one end with 
+crosshairs printed on it. The intersection of the crosshairs points to a location on the graphics tablet, 
+which in turn is mapped to a specific location on the screen. 
+Pen-Based Systems : These computers use a pen-like stylus to allow people to enter handwriting 
+and marks onto a computer screen rather than typing on a keyboard. This system connects an 
+instructor’s electronic “whiteboard” on the classroom wall with student’s pen computers, so that the 
+students could receive notes directly, without having to write.  
+ 
+Q : 01-02-03 : Briefly Describe Scanning Devices ? 
+Answer : 
+[Source Data-Entry Devices or Scanning Devices are used for direct data entry to the computer 
+systems]. Scanners use laser beams and reflected light to translate images of text, drawings, photos, 
+and the like into digital form. 
+ 
+Bar-Code Reader : Bar-Codes are the vertical zebra-stripped marks on the manufactured products in 
+the market. Bar-code system is also called “Universal Product Code”. Bar-code readers 
+(photoelectric scanners) read and translate the bar-code symbols into digital code, which is then fed 
+to the computers for further processing. 
+Magnetic-Ink Character Recognition (MICR) : A method of machine-reading characters made of 
+magnetized particles. MICR characters, which are printed with magnetized ink, are read by MICR 
+equipment, producing a digitized signal, which goes to the computer as data for further processing. 
+Optical Mark-Recognition (OMR) : Optical recognition systems use a light beam to scan input 
+data to convert it into electrical / digital signals, which are then sent to the computer for processing. 
+SAT and GRE test marking (multiple choice questions). 
+Optical Character-Recognition (OCR) : It reads preprinted characters in a particular font and 
+converts them to digital code. The common examples are some utility bills, and price tags in the 
+departmental stores. 
+Magnetic-Strip Cards : It is a strip of magnetically encoded data on the back of card. These are 
+used for personal identification during driving, in the stores, at public places etc. 
+Smart-Cards : It looks like a credit card but a microprocessor and memory chip have been added 
+additionally. When inserted into a reader, it exchanges data with the corresponding information on a 
+central computer. It can store some basic information. A Mobile-SIM card and an ATM card are 
+good examples.  
+Fax Machine : The fax or facsimile transmission machine scans an image and sends it as electrical 
+signals over telephone lines to a receiving fax machine, which re-creates the image on paper. 
+Dedicated fax machines and fax modem cards. 
+Imaging System : Image scanner (graphic scanner) converts text, drawings, and photographs into 
+digital form and stores it to the computer system for further processing. The system scans each image 
+
+ 5 
+with light and breaks the image into light and dark dots or color dots, which are then converted to 
+digital form. Its called raster graphics. 
+ 
+Q : 01-02-04 : Briefly Describe Audio / Video Input Devices ? 
+Answer : 
+Audio-Input Device : It records analog sound and translates it for digital storage and processing. 
+Sound (analog form) goes through a special circuit board (audio board), which converts analog sound 
+to digital form and stores it for further processing. Microphone is an audio-input device. 
+Video-Input Device : Films and video images from VCR or camcorder are converted to digital form 
+with the help of a special digitizing card (video-capture card). 
+Frame-Grabber Video Card : It can capture and digitize only a single frame at a time. 
+Full-Motion Video card : It can capture / convert analog to digital signals at the rate of 30 
+frames per second, like motion picture. 
+Digital Camera : A digital camera uses a light-sensitive processor chip to capture photographic 
+images in digital form on a disk or flash-memory chips. The digital form is then uploaded to the 
+computer for manipulation and printing. 
+ 
+Q : 01-02-05 : Briefly Describe Output Devices ? 
+Answer : 
+Output Device : The information processed by the computer is translated into a form that we 
+understand, and displayed by these machines. The examples are printouts (text or graphics), sound, 
+video etc. 
+Display Screens : CRTs (Cathode Ray Tube), Monitors, or simply screens, differ in size, color, 
+resolution, and video display adapter card. 
+Size : Monitors come in different sizes, from small screen built into palmtops and laptop to 
+extra large monitors used for special purposes. 
+Color : Many monitors display color. These Red, Green, and Blue (RGB) displays can create 
+256 colors and several thousand variations on them by blending shades of RGB. Monochrome 
+displays show information using a single foreground color on a contrasting background color. 
+Resolution : All the characters and images on a monitor are made up of dot patterns (pixels); 
+the number of pixels per inch determines resolution, or the sharpness of the image. A higher 
+number of pixels means a shaper and better image. 
+Video Display Adapters : Video display adapter or card is a circuit board that determines the 
+resolution, number of colors, and speed with which images appear on the display screen. 
+VGA (Video Graphics Array) : Supports 16-256 colors, depending on screen resolution. 16 
+colors at 320 x 200 pixels, and 256 colors at 640 x 480 pixels. It is called 4-bit color. 
+SVGA (Super Video Graphics Array) : Supports 256 colors at higher resolution than VGA. 
+It has two graphics modes : 800 x 600 pixels and 1024 x 768 pixels. It is called 8-bit color. 
+XGA (Extended Graphics Array) : Supports up to 16.7 million colors at a resolution of 1024 
+x 768 pixels. It can support 256, 65536, or 16,777,216 colors. It is called 24-bit color or True 
+color. Now it is available in 32-bits or higher colors also. 
+ 
+Q : 01-02-06 : Briefly Describe Types of Screens ? 
+Answer : 
+CRT (Cathode-Ray Tubes) : [A Cathode-Ray tube is a vacuum tube used as a display screen in 
+a computer or video display terminal. A stream of bits defining the image is sent from the 
+
+ 6 
+computer (CPU) to the CRT’s electron gun, where the bits are converted to electrons. The 
+inside of the front of the CRT screen is coated with phosphor. When a beam of electrons from 
+the electron gun (deflected through a yoke) hits the phosphor, it lights up selected pixels to 
+generate an image on the screen]. 
+It is found in computer screens, television sets and flight information monitors on airport. 
+ 
+ 
+ 
+Flat-Panel Displays : The flat-panel displays are thinner, lighter, and consume less power than CRT, 
+and hence better for portable computers. [Flat-panel displays are made up of two plates of glass with 
+a substance in between them, which is activated in different ways.] 
+LCD (Liquid-Crystal Display) has liquid crystal, the molecules line up in a way that lighting 
+behind the screen is blocked or allowed through to create an image. 
+EL (Electro- Luminescent Display) contains a substance that glows when it is charged by an 
+electric current. 
+Gas-Plasma display is like a neon bulb, in which the display uses a gas that emits light in the 
+presence of an electric current. 
+ 
+Q : 01-02-07 : Briefly Describe Various Types of Printers and Plotters ? 
+Answer : 
+Printers : Printers are used to print characters, symbols, and graphics on paper. 
+Impact Printers : An impact printer forms characters or images by striking a hammer or wheel 
+against an inked ribbon. 
+Dot-Matrix Printer : It contains a print head of small pins, which strike inked ribbon against 
+paper, forming characters or images. Print heads are available with 9, 18, or 24 pins. 
+Daisy-Wheel Printer : A series of petals arranged on a petal wheel; having a character at the 
+end of each petal. A character comes into a print position by wheel rotation and an image is 
+formed by the hammer strike on the desired character. It is slower than dot-matrix printer but 
+better in quality of print. 
+Line Printer : It prints a whole line of characters at once rather than a single character at a 
+time. Some of these can print up to 3000 lines per minute. 
+Non-Impact Printers : Print characters or images without making direct physical contact between 
+printing mechanism and paper. 
+
+ 7 
+Laser Printer : The images are created on a drum, treated with a magnetically charged ink-
+like toner (powder), and then transferred from drum to paper. The laser printer can produce 
+high quality images of both text and graphics (ranging from 300 dpi to 1200 dpi – dpi means 
+dots per inch). 
+Ink-Jet Printer : Ink-Jet printer sprays small, electrically charged droplets of ink from four 
+nozzles through holes in a matrix at high speed on to paper. It is cheaper compared to laser 
+printer but lower in resolution (300- 720 dpi) and is slower also (1-6) text-only pages per 
+minute. It has another type of printer i.e. Bubble-Jet Printer, which uses miniature heating 
+elements to force specially formulated inks through print heads with 128 tiny nozzles. 
+Thermal Printer : Thermal printer uses colored waxes and heat to produce images by burning 
+dots on to special paper. It produces a high quality printout but is quite expensive. 
+Plotters : A plotter is used to produce high-quality graphics in many colors and used for specialized 
+applications i.e. architectural drawings, maps, graphs, and charts. Plotters are of two basic kinds. 
+Flatbed Plotter : A flatbed plotter is the one, which has a paper lying flat on a table-like 
+surface. One to four color pens move across the paper and the images are printed by the 
+computer. 
+Drum Plotter : Paper is mounted over a drum, enabling a continuous output. A typical usage 
+is to track earthquake readings. 
+ 
+Q : 01-02-08 : Briefly Describe Sound Output ? 
+Answer : 
+Speakers are used to get audio output as microphone is used to input audio data to the computer. 
+ 
+1.03  System Software vs Application Software 
+ 
+Q : 01-03-01 : Describe or Differentiate between System and Application Software? 
+ 
+Answer : 
+System Software vs Application Software 
+The System Software : It manages hardware and software resources of the whole computer system 
+i.e. Operating system, Backup and Restore utility program, drivers etc. 
+Application Software (Computer Programs) : Programs used to accomplish a given task (of a 
+user). It is designed and implemented by the computer professionals. It has many forms / categories 
+i.e. Commercial software, Scientific software, Financial packages, Games etc. 
+ 
+1.04  Basic Units Of Data Storage 
+ 
+Q : 01-04-01 : What is Computer Memory ? How various types of data are 
+represented in the memory ? 
+Answer : 
+[The memory (main or primary) is composed of an electronic circuitry, which is a combination of 
+“ON” and “OFF” switches. This On / Off state has been conceived by the computer’s manufacturers 
+as the numbers “1” and “0”, as the circuit can show 1 (ON state) or 0 (OFF state) at a given time.] 
+Based on these binary numbers, the computer can construct sophisticated ways of representing data 
+
+ 8 
+in the memory. [Converting the numbers, alphabets, and characters (and their combinations) into 
+binary digits enable us to represent them in the computer memory.] 
+Binary Digit (BIT) : The binary number 1 or 0 is called a BIT (binary digit), which is the basic unit 
+for storing data in the computer memory. 
+BYTE : A byte is a combination of 8-bits, that can store a single character of data (a letter, numeral 
+or special character). The capacity of the memory or the storage is expressed in terms of number of 
+bytes it can hold or store. 
+ 
+Unit Bytes Bits Pronounced 
+BIT   2
+0
+ 1 Bit 
+Byte 2
+0
+ 1 2
+3
+ 8 Byte 
+Kilobyte-KB 2
+10
+ 1024 2
+13
+ 8096 Thousand Bytes 
+Megabyte-MB 2
+20
+ 1048576 2
+23
+ 8388608 Million Bytes 
+Gigabyte–GB 2
+30
+ 1073741824 2
+33
+ 8589934592 Billion Bytes 
+Terabyte–GB 2
+40
+ 1099511627776 2
+43
+ 8796093022208 Trillion Bytes 
+Petabyte-PB 2
+50
+ 1125899906842624 2
+53
+ 9007199254740992 Quadrillion Bytes 
+Exabyte-EB 2
+60
+ 1152921504606846976 2
+63
+ 9223372036854775808 Quintillion Bytes 
+Zettabyte-ZB 2
+70
+ 1180591620717411303424 2
+73
+ 9444732965739290427392 Sextillion Bytes 
+Yottabyte–YB 2
+80
+ 1208925819614629174706176 2
+83
+ 9671406556917033397649408 Septillion Bytes 
+ 
+Reference Table for Calculations 
+ 
+Prefix Symbol(s) Power of 10 Power of 2 
+yocto- Y 10
+-24 
+-- 
+zepto- Z 10
+-21 
+-- 
+atto- A 10
+-18 
+-- 
+femto- F 10
+-15 
+-- 
+pico- P 10
+-12 
+-- 
+nano- N 10
+-9 
+-- 
+micro- 
+
+10
+-6 
+-- 
+milli- M 10
+-3 
+-- 
+centi- C 10
+-2 
+-- 
+deci- D 10
+-1 
+-- 
+(none) -- 10
+0
+ 2
+0
+ 
+deka- D 10
+1 
+-- 
+hecto- H 10
+2 
+-- 
+kilo- k or K 
+* 
+10
+3
+ 2
+10
+ 
+mega- M 10
+6
+ 2
+20
+ 
+giga- G 10
+9
+ 2
+30
+ 
+tera- T 10
+12
+ 2
+40
+ 
+peta- P 10
+15
+ 2
+50
+ 
+exa- E 10
+18 
+2
+60
+ 
+zetta- Z 10
+21 
+2
+70
+ 
+yotta- Y 10
+24 
+2
+80
+ 
+* k = 10
+3
+ Communication and K = 2
+10
+ used in Data Storage 
+ 
+Example : Convert 133 TB of memory in Gigabytes, Megabytes, Kilobytes, Bytes and Bits ?  
+133 TB = 133 X 2
+10
+ GB = 133 X 2
+20
+ MB = 133 X 2
+30
+ KB = 133 X 2
+40
+ Bytes = 133 X 8 X 2
+43
+ Bits. 
+
+ 9 
+ 
+Q : 01-04-02 : What is Computer Word ? Explain word sizes ? 
+Answer : 
+Computer Word : The size of a CPU register, is defined as number of bits that constitute a common 
+unit of data, as defined by the computer system. The larger the word, the more powerful is the 
+computer. 
+ 
+Bytes Per Word Bits Era Of Computer 
+One Byte 8 Early Computer 
+Two Byte 16 Micro Computer 
+Single Word 32 Mainframe and some Mini-Computer 
+Double Word (DW) 64 Super Computing 
+ 
+Note : An 8-bit machine could handle only one-byte (a character) at a time, whereas a 64-bit 
+machine handles two words or 8 bytes at a time, making its processing speed eight times faster 
+(in the same interval of time). 
+ 
+Q : 01-04-03 : What is System ? What does it comprise of ? 
+Answer : 
+System : [A combination of some related components that interact with each other to perform 
+some specific tasks]. It comprises of Hardware, Software, People / Users, Data / Information and 
+Communication Setup. 
+ 
+1.05  System (Software) Development Life Cycle - SDLC 
+ 
+Q : 01-05-01 : Define SDLC ? Give SDLC Diagram including various phases ? 
+Answer : 
+SDLC :  [SDLC (System / Software Development Life Cycle) is an organized way to develop a 
+successful system]. It involved seven phases. 
+ 
+Preliminary Investigation 
+System Identification 
+System Scope 
+Alternate Solutions 
+
+ 10 
+Feasibility Study 
+Preliminary Plan 
+System Analysis 
+Needs Analysis 
+Data Gathering 
+Written Documents 
+Interviews 
+Questionnaires 
+Observations 
+Sampling 
+Data Analysis 
+Analysis Report 
+Design 
+Logical Design 
+Physical Design 
+Report 
+Coding 
+Testing 
+Unit-Testing 
+System-Testing 
+Implementation 
+Direct Implementation 
+Parallel Implementation 
+Phased Implementation 
+Pilot Implementation 
+User Training 
+Maintenance 
+ 
+Q : 01-05-02 : Define SDLC ? Explain SDLC with Diagram of various phases ? 
+Answer : 
+SDLC :  [SDLC (System / Software Development Life Cycle) is an organized way to develop a 
+successful system]. It involved seven phases. 
+ 
+The detailed breakdown of these phases : 
+
+ 11 
+Preliminary Investigation : The objective is to conduct an initial analysis and findings of the 
+system. 
+System Identification : The system is to be identified at this stage. Everything done in future 
+will depend on the basis of this definition. 
+System Scope : The scope of the system is established at this stage. Sometimes, it becomes 
+necessary to curtail the projects to certain limits due to financial, political, or time constraints. 
+Alternate Solutions : There may be alternate solutions to develop the system. Identify all 
+those and choose the best one. The best strategy in this regard would be to interview the 
+concerned people inside the organization, clients or customers of the system, suppliers and 
+consultants. What the competitors are doing for the same type of systems ? 
+Feasibility Study : We have to see the financial, political, and time-frame viabilities to go 
+ahead for the system. There may be some social and technical constraints to be considered. 
+Preliminary Plan : Wind up all findings and submit as a written document for approval. The 
+readers of this document (also known as feasibility report) are top managers who will then 
+decide about the future actions to be taken, based on this report. They might like to make few 
+amendments in the project or shelve it. 
+System Analysis : Analyst will conduct following activities : 
+Needs Analysis : It is also called Requirements Analysis. Analyst would sum up the 
+requirements of the system from the users and the managers. The developed system should 
+satisfy these requirements during testing phase. 
+Data Gathering : Systems analyst uses different tools and methods for data gathering. 
+Written Documents : Handful information can be obtained from documents. These are 
+reports, forms, memos, business plans, policy statements, organizational charts etc. 
+Interviews : Interviewing the managers, users. clients, suppliers, competitors will help 
+the analysts / designers to gain more knowledge about the system. The precise and 
+relevant questions should be asked. 
+Questionnaires : It may be difficult to interview many people, so it is better to design 
+some questionnaires to collect the information from as many people as we like. This is 
+very convenient and inexpensive method to collect data. 
+Observations : The analyst or his team may go and watch the working, behavior, and 
+similar things to know more about the similar systems around. He may be a participant 
+or non-participant observer. 
+Sampling : If there were a large number of people or events involved in the system, it 
+would be better to work on a portion of all of them to save time. 
+Data Analysis : Data must be accurate, complete, and readily available in the systems we 
+design. We have many tools available. For example: DFDs (Data Flow Diagrams), System 
+Flowcharts, Connectivity Diagrams, Grid Charts, and Decision Tables etc. 
+Analysis Report : We document analysis work in a presentable form to the higher 
+management for their review and approval of the project. This report should have three parts : 
+First, it should explain how the current system (manual or automated if exists) works. Second, 
+it should explain the problems in the existing system, and finally it should describe the 
+requirements for the new system and make recommendations for future. 
+Design : Analyst works on the preliminary (Logical) design, detail (Physical) design, and then writes 
+a detailed report. 
+
+ 12 
+Logical Design : It describes the general functional capabilities of a proposed system. It 
+reviews the system requirements and considers the major system components. MS-Project, 
+Gantt chart, PERT chart etc may be used to accomplish this. 
+Physical Design : It describes how a proposed system will deliver the general capabilities 
+described in the Logical design. It will address output requirements, input requirements, 
+storage requirements, processing requirements, and system control and backup / recovery. 
+Report : A detailed report on logical and physical design is to be submitted to the higher 
+management along with some sort of presentation, explaining the proposed system. 
+Coding : Writing the segments and programs, which will be coupled together in the shape of a 
+complete system. It needs a lot of time, effort and budget to acquire a workable system. The program 
+specifications, algorithms, flowcharts are given to the programmers / software engineers to code the 
+required programs. Off-the-Shelf-Components (already written programs) can also be used. 
+Testing : Having proper hardware acquired, the programs can be tested : 
+ Unit-Testing : It is also called modular testing where individual modules, programs can be 
+ tested using test (sample) data. 
+System-Testing : Parts or modules are linked together to test their workability as a one 
+system. Actual data may be used to do the system testing and erroneous data can be used to 
+check whether the system fails or not. 
+Note : If the system passes all the tests, we can implement the servers, so that the organization 
+and other clients can use it. 
+Implementation : This activity consists of transferring the hardware, software and data (files, 
+database etc) to the new working environment (server). Users of the system are also trained in this 
+phase. It includes: 
+Direct Implementation : Users start using the new system and stop working on the old one. 
+Parallel Implementation : New and old systems are used side by side until satisfied. 
+Phased Implementation : Parts of the system are implemented from time to time, until the 
+whole system is implemented. 
+Pilot Implementation : Implement the complete system but to a selected group of users or 
+selected department(s). 
+User Training : Involve the users in the SDLC process from the beginning and ensure their 
+proper training is essential throughout the system design activity. A variety of methods / tools 
+are used to do so i.e. Instruction Manual, Videotapes/CDs, and Lectures etc. 
+Comment : In general, the pilot and phased implementation are the most favored and popular 
+approaches to implement the systems. Phased approach is preferable for organizations where 
+different types of functions are carried out whereas Pilot approach is preferred where almost 
+same type of work is going on in the organization. 
+Maintenance : The last phase adjusts and improves the system by considering the users evaluation, 
+feedback, and enhancements based on their due recommendations. In this phase, due maintenance 
+and help is also provided to the users against their queries, problems, and ambiguities. 
+  
+
+ 13 
+Chapter 02  : Information Networks 
+ 
+2.0 Overview 
+ 
+Q : 02-00-01 : What are Information / Computer Networks ? 
+Q : 02-00-01 : Define Information / Computer Networks ? 
+Answer : 
+Information networks (computer networks), are at the convergence of two important technologies : 
+computing and telecommunications. This convergence has resulted in local area networks (LANs), 
+metropolitan networks (MANs), wide-area networks (WANs), and the Internet. 
+A network is a large circulatory system, through which information continuously flows. 
+ 
+2.1 Workgroup Computing 
+ 
+Q : 02-01-01 : Define or Describe Workgroup Computing ? 
+Answer : 
+Workgroup computing is highly important aspect of modern World computing in today’s business, 
+academic, technological, and research oriented atmosphere. It is also known as collaborative 
+computing and it enables the individuals and teams of certain projects to use computer networks for 
+the purpose cooperation, consultation, and information sharing. 
+ 
+2.2 E-mail and Its Benefits 
+ 
+Q : 02-02-01 : Define E-mail and Describe its Benefits ? 
+Q : 02-02-01 : What are Benefits of E-mail ? 
+Answer : 
+E-mail : Electronic mail, is the process of sending messages directly from one computer to 
+another (linked through wired or wireless connections).  
+Benefits of E-mail : 
+Distance : We can communicate with anyone, anywhere. Distance or size of email does not 
+matter. E-mail usually reaches its destination in a matter of minutes or seconds. 
+The Cost of Message : It is cost-effective way to communicate with friends, colleagues, or 
+business associates regardless of where they are physically located. 
+The Content : We can send letters, notes, files, data, or reports all using the same techniques. 
+No Interruption To Recipient : The recipient, working on the computer, is not interrupted by 
+the arrival of the e-mail. It is put in his mail box (on the server) and can be seen and worked 
+upon later, using the e-mail program. 
+The User’s Computers May Be Off : when the mails arrive (all will stay in the server) and 
+can be read anytime (later).  
+E-mails Are Not Anonymous : They always carry an address of the originator. Therefore, we 
+are always sure about where it is coming from and where it is going to. 
+ 
+2.3 Internet 
+ 
+Q : 02-03-01 : Define Internet and Describe its History ? 
+Q : 02-03-01 : How and where was Internet Born ? 
+
+ 14 
+Answer : 
+Internet : [The Internet is a huge network of connected computers that provide us a facility of 
+exchanging data, messages, and files with other computers that are connected to the Internet]. 
+Internet has brought the world nations to the realization of a “Global Village”, in which we feel, 
+everyone as close as our neighbor. 
+History or The Birth of Internet : 
+During late l960s, it was designed as ARPANET (Advanced Research Project Agency NETwork) 
+by the US Department of Defense -  DARPA, in collaboration with other universities and research 
+organizations. In the beginning, ARPANET was used mainly for communication technology 
+research and development, with scientists at various sites connected through a network, to share the 
+information. 
+Later, throughout l970s and 1980s, ARPANET evolved into several other networks dedicated mostly 
+to military use. In 1989, all the previous networks, created for military use, were abandoned and 
+replaced by National Science Foundation’s NSFNET. The Internet has grown rapidly since 1990. 
+According to the Internet Society (the monitoring organization), the number of computer networks in 
+the Internet is more than Two Million and the number of computers that connect to these networks is 
+more than Hundred Million. 
+ 
+Q : 02-03-02 : Define or Describe or Explain Components of Internet ? 
+Answer : 
+Components of Internet : World Wide Web is popular but actually, the Internet has many more 
+components : 
+World Wide Web (www) : www is a collection of millions of uploading web pages / web 
+sites. It organizes the Internet-related resources so that we can easily access the information 
+available on the Internet. 
+Electronic mail (e-mail) : It is the process of sending and receiving messages and files among 
+the Internet users. 
+Telnet : It is the software tool that allows one computer to connect to another computer and 
+make use of the other computer’s information. 
+File Transfer Protocol (FTP) : It is also an Internet software tool for transferring files from 
+one computer to another. The process of transferring a file from a remote computer to our 
+local computer is called downloading. The process of transferring a file from our own 
+computer to the remote computer (on the Internet) is called uploading.  
+Gopher : It is an access and retrieval system covering a wide range of information, from 
+reference materials to magazine articles to government documents and speeches. 
+Chat Groups : The Internet users with similar interests, form up their forums, to have online 
+real-time discussions over the Internet. 
+Intranet : It is a privately owned, secure, business network based on Internet technology, 
+although not necessarily connected to the Internet. 
+Extranet : An “extranet” is two or more intranets connected in such a way that they enable 
+collaboration among the companies that own the separate intranets. 
+ 
+2.4 Components of Network 
+ 
+Q : 02-04-01 : Define or Describe Components of Network ? 
+
+ 15 
+Answer : 
+Components of Network : LANs do not use the telephone network. Its networks are constructed with standard 
+set of components : 
+ 
+Connection Cables : Low-cost LANs are connected with twisted wire pairs, but many LANs use 
+coaxial cable or fiber optic cable, which are both more expensive and faster. Some LANs are 
+wireless, using infrared or radio wave transmissions instead of cables. 
+Network-Interface-Card (NIC) : Connects each computer to the wiring in the network. NIC is a 
+circuit board that fits in one of the computer’s internal expansion slots (on the mother board). Some 
+computers have built in NIC (on board). 
+Bridge : Similar networks can be connected by a bridge, which recognizes the messages on a 
+network and passes on those to addressed nodes in the other network. 
+Gateway : Gateway is a collection of hardware and software resources that lets a node communicate 
+with a computer on another different network. 
+Router : Router is a device that connects two or more networks, it consist of combination of 
+hardware and software. The hardware can be a network server, a separate computer, or a special 
+black box device. The hardware includes the physical interfaces to the various networks in the 
+internet. 
+ 
+Q : 02-04-02 : Define or Describe LAN’s Protocol? List commonly used Protocols? 
+Answer : 
+LAN’s Protocol : Networks have certain rules, called Protocols, to send and receive data, and it is 
+defined in the network software. The most common are : 
+Ethernet 
+Token Ring 
+ARCNet 
+TCP/IP (Transmission Control Protocol / Internet Protocol) 
+ISDN (Integrated Series Digital Network) and DSL (Digital Subscriber Line) 
+Q : 02-04-03 : Explain Commonly used Protocols for LAN ? 
+Answer : 
+LAN’s Protocol : Networks have certain rules, called Protocols, to send and receive data, and it is 
+defined in the network software. The most common are : 
+Ethernet : Currently, it is the most commonly used protocol. It uses high-speed network cable and 
+bus topology, so it is relatively simple and cheaper. Since all the nodes (computers) use the same 
+cable to send and receive data, they must follow a set of rules about when to communicate otherwise, 
+two or more computers could transmit at the same time causing lost messages. Before transmitting 
+the data, a node listens” to find out if the cable is in use. If so, the node must wait. When the cable is 
+
+ 16 
+free from other transmission, the node can begin transmitting immediately This process is also 
+known as CSMA/CD (Carrier Sense Multiple Access with Collision Detection). 
+If two nodes transmit data at the same time, the messages collide. When a collision occurs, a special 
+message, lasting a fraction of second, is sent out over the network to indicate that it is jammed. Each 
+node stops transmitting, waits a random period of time, and then transmits again. Since the wait 
+period for each node is random, it is unlikely that they will begin transmitting at the same time again. 
+Token Ring : It is closely associated with IBM, works on the concept of a ring network topology 
+and a token (a kind of electronic signal). The method of controlling access to the shared network 
+cable is called token passing. Only one token is available on the network. When a node on the 
+network wishes to transmit, it first captures the token, only then it can transmit data. When the node 
+has sent its message, it releases the token back to the network. Since only one token is circulating 
+around the network, only one device is able to access the network at a time. Thus no collision occurs 
+but the only disadvantage is its slow data transfer rate. 
+ARCNet : The ARCnet (Attached Resource Computer network) has both a topology and 
+networking technology all its own. It uses either twisted-pair wire or coaxial cable, and the star 
+topology is informed with hubs attached to the network. The original ARCnet protocol was very 
+slow, but it became popular because it was inexpensive, reliable, and easy to set up or expand. Fast 
+ARCnet increased the transmission rate to 100 Mbits Per Second and includes the capability to use 
+fiber optic cable. 
+TCP/IP (Transmission Control Protocol / Internet Protocol) : [TCP/IP (Transmission Control 
+Protocol / Internet Protocol): TCP/IP is the protocol used by every computer on the Internet. A 
+protocol is a set of rules and procedures that defines how computer receive and transmit data 
+over the network]. Every computer on the Internet must have TCP/IP configured. TCP/IP ensures a 
+reliable connection between the computers communicating over the Internet. It also defines a 
+mechanism through which every computer on the Internet is identified separately. TCP/IP software 
+differs for different computers but it always presents the same interface to the network. It does not 
+matter if the system on the other end is a supercomputer, a mainframe, mini computer or a 
+microcomputer; as long as it is using TCP/IP, it can send and receive data through the Internet. 
+ISDN (Integrated Series Digital Network) : ISDN is a set of international communication 
+standards for software control of transmitting voice, video, and data simultaneously as digital signals 
+over twisted-pair telephone lines. ISDN provides better quality than analog connections and more 
+reliable digital connections at higher speeds than those offered by analog connections. 
+DSL (Digital Subscriber Line) : DSL provides high speed, digital data transmission from homes 
+and businesses over existing telephone lines. The exiting lines are analog and the transmission is 
+digital, so modems are necessary with DSL technology. DSL is a popular alternative to ISDN. 
+ 
+2.5 LAN VS WAN 
+ 
+Q : 02-05-01 : Explain LAN, WAN and MAN ? 
+Answer : 
+LAN (Local Area Network) : It is a collection of computers, usually micro computers, that share 
+hardware, software, and In simple terms, LAN hook personal computers together through 
+communications media so that each computer can share the resources with others. As the name 
+implies, LANs cover short distances, usually one office or building or a group of buildings that are 
+close to each other. 
+
+ 17 
+WAN (Wide Area Network) : A wide area network is a network of geographically distant computer 
+terminals. WAN is two or more LANs connected together across a wide geographical area using the 
+connectivity mentioned above. The Internet is the ultimate WAN that connects thousands of 
+computers and LANs around the world, ultimately making it as www (World Wide Web). 
+MAN (Metropolitan Area Network) : A metropolitan area network (MAN) is a communications 
+network covering a geographical area the size of a city. MAN bypasses local telephone companies 
+when accessing long distance services. Mobile phones (Cellular) systems are often MANs. 
+ 
+2.6 Networking Concepts 
+ 
+Q : 02-06-01 : Explain the Concept of a Network ? 
+Answer : 
+Networking Concept : [It is a way to connect computers together so that they can 
+communicate, exchange information and pool / share their resources amongst each other]. 
+In business or education, scientific or technological research, institutes or office atmosphere, 
+networks have revolutionized the use of computer technology. A lot of information is virtually on 
+our table, using the smart powers of browsing and surfing the resources Internet. 
+ 
+Q : 02-06-02 : Describe Uses of Network ? 
+Answer : 
+Uses of Networks : Networks allow users to : 
+Simultaneous access to shared programs and data. 
+Share peripheral devices, such as printers and hard disks. 
+Send e-mail along with big attachments (files etc). 
+Communicate by providing tools for teleconferencing and videoconferencing. 
+ 
+Q : 02-06-03 : Explain Network Models ? 
+Answer : 
+Network Models : Basically two types (models) of Network : 
+Client / Server (Dedicated Server Network) : This arrangement involves a SERVER, which 
+is a computer that controls the network. A server has the hard disks holding shared files / 
+databases and often shared quality printer which can be used by all nodes. (Resources are 
+controlled by the file server in a client / server network). 
+Peer-To-Peer : All computers in a peer-to-peer arrangement have equal status. No one has 
+control over others. With all files and peripheral devices distributed across several computers, 
+users share each other’s data devices as needed. The main disadvantages are lack of speed and 
+security. (Resources are shared among equals in a peer-to-peer network). 
+Hybrid : Many networks are hybrid i.e. combination of both client / server and peer-to-peer 
+approaches. This approach takes the advantages of both models. 
+ 
+Q : 02-06-03 : Explain Network Standards ? 
+Answer : 
+Network Standards : [The standards are the precise documents containing technical and physical 
+specifications about the network being designed]. By following worldwide acceptable standards, the 
+networks can be reliable, efficient and trustworthy. 
+
+ 18 
+De-Facto Standard : De Facto “By Tradition” or “By Facts”. These standards are most 
+commonly used by the organizations worldwide. 
+De-Jure Standard : De-Jure means “According To Law or Regulation”. The networks 
+governing bodies have properly approved these standards. 
+American National Standard Institute (ANSI).  
+The Institute of Electrical and Electronics Engineers (IEEE). 
+The International Standard Organization (ISO). 
+The International Telecommunications Union-Telecommunication Standards Sector 
+(ITU-T, formally CCITT) Consulate Committee International on telegraph and 
+telephone. 
+The Electronic Industries Association (EIA). 
+Telcordia. 
+ 
+Q : 02-06-04 : Explain Network Topologies ? 
+Answer : 
+Network Topology : [Topology refers to the layout of connected devices on network. One can think 
+of a topology as a network’s “shape”]. 
+Bus : Bus networks (not to be confused with the system bus of a computer) use a common backbone 
+to connect all devices. A single cable, the backbone functions as a shared communication medium, 
+that devices attach or tap into with an interface connector. Ethernet bus topologies are relatively easy 
+to install and don’t require much cabling compared to the alternatives. 10Base-2 (“ThinNet”) and 
+10Base-5 (“ThickNet”) were popular Ethernet cabling options. Disadvantage is that, if the backbone 
+cable fails, the entire network becomes unusable. 
+CSMA/CD (Carrier Sense Multiple Access/Collision Detection) : It is a local area network 
+access method in which contention between two or more stations is resolved by collision 
+detection. When two stations transmit at the same time, they both stop and signal a collision 
+has occurred. Each then tries again after waiting a predetermined time period. To avoid 
+another collision, the stations involved each choose a random time interval to schedule the re-
+transmission of the collided frame. 
+CSMA/CS (Carrier Sense Multiple Access/Carrier Sense) : A node listens to the bus for a 
+predetermined amount of time before transmitting and waits until the talking node has 
+completed transmission. 
+CSMA/CR (Carrier Sense Multiple Access/Collision Resolution) : It allows multiple 
+devices to talk at once, a protocol determines which device receives priority. 
+Ring : In a ring network, every device has exactly two neighbors for communication purposes. All 
+messages travel through a ring in the same direction (effectively either “Clockwise’ or Counter 
+clockwise”). A failure in any cable or device breaks the loop and can take down the entire network. 
+Token passing scheme is used in this topology. 
+Star : Many home networks use the star topology. A star network features a central connection point 
+called a “hub” that maybe an actual hub or a switch. Devices typically connect to the hub with 
+Unshielded Twisted Pair (UTP) Ethernet. Compared to the bus topology, a star network generally 
+requires more cable, but a failure in any star network cable will only take down one computer’s 
+network access and not the entire LAN. If the hub fails, however, the entire network also fails. 
+Tree : Tree topologies integrate multiple star topologies together onto a bus. In its simplest form, 
+only hub devices connect directly to the tree bus, and each hub functions as the root of a tree of 
+devices. This bus / star hybrid approach supports future expandability of the network much better 
+
+ 19 
+than a bus were (limited in the number of devices due to the broadcast traffic it generates) or a star 
+(limited by the number of hub ports) alone. 
+Mesh : Mesh topologies involve the concept of routes. Unlike each of the previous topologies, 
+messages sent on a mesh network can take any of several possible paths from source to destination. 
+(Recall that in a ring, although two cable paths exist, messages can only travel in one direction.) 
+Some WANs, like the Internet, employ mesh routing. A mesh offers several advantages over other 
+network topologies. 
+Fault Tolerance : Mesh network has high fault tolerance due to multiple links.  
+Under Load : Due to multiple links mesh network can work fine even under severe loads.  
+Troubleshooting : Troubleshooting of mesh network is easy as compared to other networks. If 
+data is not communicated between any two computers then it means that there is some fault in 
+direct links between them. 
+Disadvantages : These include the difficulty of installation reconfiguration, as well as the cost 
+of maintaining redundant links. 
+ 
+Q : 02-06-05 : Define Open Systems Interconnection(OSI)Model and Explain it 
+layers ? 
+Answer : 
+The Open Systems Interconnection (OSI) : This model was created by International 
+Organization for Standardization (ISO) to provide a logical framework for how data 
+communication processes should interact across networks. Standards were created for the computer 
+industry allowing different networks to work together efficiently. 
+The OSI model has the upper layers and lower layers. The upper layers focus on user applications 
+and how files are represented on the computers prior to transport. It’s the lower layers that 
+concentrate on how the communication across a network actual occurs. 
+Application Layer : Provides network services to user applications. It responsible for exchanging 
+information between programs running on the machine, such as an e-mail program, and other 
+services running on a network such as a print server or another computers’ application. 
+Presentation Layer : Concerned with how data is converted and formatted for data transfer. 
+Examples of format conversions include ASCII text for documents and .gif and JPG for images. This 
+layer performs code conversion, data translation, compression and encryption. 
+Session Layer : Determines how two devices establish, maintain and manage a connection - how 
+they talk to each other. These connections are called sessions. 
+Transport Layer : Responsible for breaking the data into segment, establishing an end-to-end 
+logical connection between machines, and providing for error handling. 
+Network Layer : Responsible for determining addressing on the network determining the routes that 
+information will take on its journey, and managing network traffic congestion. Data at this level is 
+packaged into packets. 
+Data Link Layer : Provides the link for how data, packaged into frames is communicated through 
+hardware to be transported across a medium. It communicates with network cards, manages physical 
+layer communication between connecting systems and handles error notification. 
+Physical Layer : Specifies how data is processed into bits physically transferred over medium, such 
+as cables. Its responsible for activating and maintaining the physical link between systems. 
+ 
+  
+
+ 20 
+Chapter 03  : Data Communication 
+ 
+3.0 / 3.1 Overview / Components of Data Communication 
+ 
+Q : 03-01-01 : Define Data Communication and Describe its Five Components ? 
+Answer : 
+Data Communication : [Movement of encoded information by means of electrical transmission 
+systems from one computer or device to the other]. 
+ 
+Five Components of Data Communication : 
+Message : The message is the information (data) to be communicated. It may consist of text, 
+numbers, pictures, sound, video or any combination of these. 
+Sender : It is the device that sends the data. It can be computer, workstation, telephone, video 
+camera and so on. 
+Receiver : It is the device that receives the data. It may be computer, workstation, telephone, 
+television and so on. 
+Communication Channel : It is the physical path by which a data travels from sender to receiver. It 
+cab be a twisted pair wire, coaxial cable, fiber optic cable, or microwave etc. 
+Encoder and Decoder : The encoder converts digital signals to a form which can pass through 
+transmission medium and decoder again coverts signal from encoded form into digital form, which is 
+understandable for receiver. 
+ 
+3.2 Signals 
+ 
+Q : 03-02-01 : Define Signal, explain Analog and Digital Signals ? 
+Answer : 
+Signals : [The electromagnetic or light waves representing data are called signals]. These are used to 
+transfer data from one device to another device through a communication medium. 
+Analog Signal : The analogue data signals are continuous electrical signal in the form of wave. This 
+wave is called a carrier wave. Two characteristics of analogue carrier waves that can be altered are 
+frequency and amplitude. [Frequency is the number of times a wave repeats during a specific time 
+interval]. [Amplitude is the height of wave within a given period of time]. 
+
+ 21 
+ 
+Digital Signal : A digital signal uses on-off electrical pulses in discontinuous, or discrete form. Most 
+computers are digital in nature, represent data as patterns of binary numbers. 
+ 
+ 
+3.3 Types of Data 
+ 
+Q : 03-03-01 : Describe FIVE Types of Data ? 
+Answer : 
+Text : The text consists of words, sentences, and paragraphs. Text processing refers to the ability to 
+manipulate words, lines, and pages. Typically, the term text refers to text stored as ASCII codes that 
+is, without any formatting. Objects that are not text include graphics, numbers and program code. 
+Numeric : Numeric data consist of digits from 0 to 9, + (positive) or - (negatives) signs and a 
+decimal point. It can be integer type or real type. 
+Image : This type of data includes chart, graph, pictures and freehand drawings. The information in 
+this form is more comprehensive. The data are sent as contiguous bits, which, for transfer, are packed 
+into the 8-bit transfer bytes. The receiving site must store the data as contiguous bits. 
+Audio : Sound is a representation of audio. It is converted into digital code by sampling the sound 
+waves 44,056 times per second and converting each sample into a 16- hit number. 
+Video : Video can be produced either as a continuous entity (by a camera), or it can be a 
+combination of images, each one a discrete entity, arranged to convey the idea of motion. Video 
+creates actions and movements. 
+ 
+Q : 03-03-01 : Describe Data Representation ? 
+Answer : 
+Data Representation : The computer works with binary numbers, binary means two digits. These 
+are 0 and 1. An electrical pulse inside the computer represents each binary number. 1 is represented 
+by a pulse of electrical inside the computer and 0 by an absence of a pulse. Each binary digit is called 
+bit and it is the smallest element of data. 
+ 
+3.4 Encoding of Data 
+ 
+Q : 03-04-01 : Define Data Encoding ? Describe Five Data Encoding Schemes ? 
+Answer : 
+
+ 22 
+Data Encoding : The computer works with binary digits only. Therefore, all data, numeric or non-
+numeric, must be converted into binary digits before the computer can understand it. Computers 
+transmit data in the form of binary codes. Both sender and receiver of the data should have same 
+standard rules for both to understand it. Some coding schemes to represent data are : 
+BCD Code : (Binary Coded Decimal) is 4 bits code. A few early computers processed BCD numbers 
+but were slower and more complicated than a modern computer, which are able to process 
+alphanumeric (alphabet letters, numbers and other symbols). 
+EBCIDIC Code : Extended Binary Coded Decimal Interchange Code is an 8-bit code primarily used 
+by International Business Machine (IBM). This type is intended for efficient transfer between hosts, 
+which use EBCDIC for their internal character representation. For transmission, the data are 
+represented as 8-bit EBCDIC characters. The character code is the only difference between the 
+functional specifications of EBCDIC and ASCII types. 
+ASCII Code (American Standard Code for Information ¶ Interchange) : It is a 7-bit code and 
+makes 128 character combinations, whereas an 8-bit can make 256 combinations. It was developed 
+by American National Standards Institute (ANSI) and can handle alphanumeric data. It is intended 
+primarily for the transfer of text files, except when both hosts would find the EBCDIC type more 
+convenient. 
+Unicode (Universal Code) : It is a 16-bit code and can represent up to 65,536 symbols. Unicode has 
+started to replace ASCII at all levels. It supports a comprehensive set of mathematical and technical 
+symbols to simplify scientific information. With the UTF-8 (Unicode Transformation Format-8) 
+encoding, Unicode can be used in a convenient and backwards compatible way in environments that 
+were designed entirely around ASCII. 
+ 
+3.5 Modes of Data Communication 
+ 
+Q : 03-05-01 : Describe THREE Modes of Data Communication ? 
+Answer : 
+Modes of Data Communication : When data is transmitted between two pieces of equipment, three 
+types of data transmission modes can be used : 
+Simplex : [Simplex is a mode in which data flows in one direction only.] This is not popular as it 
+once was. However, it is used in point-of-sale terminals, radio and T.V transmissions. 
+ 
+Half-Duplex : [In Half-Duplex transmission, data can be sent and received in both directions, but not 
+at the same time.] It’s like a one-lane bridge where two-way traffic must give way in order to cross. 
+Only one end transmits at a time, the other end receives. It is possible to perform error detection. 
+ 
+Full-Duplex : [The bidirectional mode of communication is Full-Duplex.] Data is transmitted in both 
+directions simultaneously on the same channel. Full-duplex communication is made possible by 
+devices called multiplexers. 
+
+ 23 
+ 
+ 
+3.6 Types of Data Transmission 
+ 
+Q : 03-06-01 : Explain Types of Data Transmission ? 
+Answer : 
+ 
+Parallel Data Transmission : [Concurrent flow of bits of data through separate communications 
+lines.] This pattern resembles the flow of automobile traffic on a multilane highway. Parallel data 
+transmission is commonly used for interactions between a computer and its printer. 
+Serial Data Transmission :  [Each individual bit of information travels along its own 
+communications path; the bits flow in a continuous stream along the communications channel.] 
+Pattern is analogous to the flow of traffic in one-lane street. Serial transmission is typically slower 
+than parallel transmission, because data are sent sequentially in a bit-by-bit fashion. 
+Asynchronous Transmission : [A type of communication that sends data using flow control 
+rather than a clock to synchronize data between the source and destination.] When 
+asynchronous transmission (also called start / stop transmission) is used, a special start signal 
+is transmitted at the beginning of each group of message bits. 
+Synchronous Transmission : [A type of transmission that uses a clock to control the timing 
+of bits being sent.] Large volumes of information can be transmitted at a single time with 
+synchronous transmission. This type of transmission involves the simultaneous flow of several 
+bytes of data. 
+ 
+Q : 03-06-02 : Define Bandwidth ? Describe Two Types of Bandwidth ? 
+Answer : 
+Bandwidth : Each type of communications media has different transmission speed. [The bandwidth 
+is a measure of the transmission rate of communications channels]. 
+Baseband : Digital signals are commonly called baseband signal. [Baseband is a communications 
+technique in which digital signals are placed on to the transmission line without change in 
+modulation.] It transmits up to a couple of miles, and does not require the complex modems. Typical 
+Token Ring and Ethernet use baseband signals. 
+Broadband : [Broadband is a technique for transmitting large amounts of data, voice and video over 
+long distances simultaneously by modulating each signal onto a different frequency.] Using the FDM 
+Data Transmission 
+Parallel 
+Serial 
+Asynchronous 
+ 
+Synchronous 
+
+ 24 
+(Frequency Division Multiplexing) technique, several streams of data can be transmitted 
+simultaneously. This bandwidth includes microwave, satellite, coaxial cable and fiber-optic media. 
+ 
+Q : 03-06-03 : Define and Classify Communication Media ? 
+Answer : 
+Communication Media : [For data to be transmitted from one location to another, pathway or 
+medium must be used. These pathways are called communication channels]. The communication 
+channels can be divided into two types of media : 
+Guided Media : Channels that allow transmission of data through a physical media i.e. twisted pair 
+wire, coaxial cable or fiber-optic cable. These are also called bounded media. 
+Twisted Pair : The telephone lines used to carry most of the voice and data communications 
+consist of a pair of thin-diameter insulated copper wires (called twisted pairs). 
+Coaxial Cable : Coaxial cable can be used for telephone lines for transmission at a high 
+frequency. Coaxial cable consists of a sing core of solid copper. A coaxial cable can handle 80 
+times as many telephone transmissions as twisted pair media. Many computers in local area 
+networks are linked by coaxial cables. 
+A Fiber-Optic Cable : A fiber-optic cable consists of tubes of glass through which data are 
+transmitted as pulses of light. Optical fiber consists of thin glass fibers that can carry 
+information at frequencies in the visible light spectrum and beyond. The typical optical fiber 
+consists of a very narrow strand of glass called the core. 
+Unguided Media : Those channels that transmit data and information in the form of wave. Unguided 
+transmission media consists of a means for the data signals to travel but nothing to guide them along 
+a specific path. The atmosphere and the space are examples of unguided media such as microwave, 
+or satellite. 
+Microwave : Microwave data transmission differs from the previously mentioned 
+communications channels in that data is transmitted through the air instead of through cables 
+or wires. Microwaves are high-frequency radio waves that can only be directed in straight 
+lines. Consequently, microwave transmission is usually limited to communications occurring 
+within the limits of a particular city or community usually twenty to thirty miles apart. 
+Satellites : Instead of antennas, satellites can also be used to transmit microwave messages 
+from one location to another. Satellites rotate approximately 23,300 miles above the earth in 
+precise locations / orbits. Satellite transmission stations that can both send and receive 
+messages are known as “Earth Stations”. A major advantage of satellite transmission is that 
+large volumes of data can be communicated once. A particular drawback is bad weather can 
+severely affect quality of satellite transmissions. This wide range broadcasting ability has 
+given rise to a multitude of different satellites carrying all kinds of information such as 
+telephone calls, television channels, internet traffic, military communications, weather data, 
+and even radio stations. 
+Mobile Communications : It is radio-based networks that transmit data to and from mobile 
+computers. Computer can be connected to the network through wired ports or through wireless 
+connections. 
+ 
+3.7 Modem 
+ 
+Q : 03-07-01 : Define Modem ? Describe Transmission Rate and Speed ? 
+Answer : 
+
+ 25 
+Modem : Modem (Modulate / Demodulate) is a device that converts digital signals into analog form 
+(modulation process) to send over phone lines, a receiving Modem at the other end of phone line 
+then converts the analog signal back to a digital signal (demodulation process). It enables users to 
+transmit data from one computer to another by using standard telephone lines and analogue signal. 
+Transmission Rate : Modems as high-speed or low speed to indicate how many bits per second a 
+specific device is capable of transmitting or receiving. 
+Speeds : The specific techniques used to encode the digital bits into analog signals are called 
+modulation process. The various modulation standards define the exact methods of encoding and the 
+data transfer speed. The raw speed (the speed without data compression) of a modem is determined 
+by the modulation standards. 
+ 
+Q : 03-07-01 : Describe Various Types of Modems ? 
+Answer : 
+Types of Modems : In terms of physical size and shape, modems can be divided into : 
+External : External modem is attached to the system unit as an external device by means of a 
+telephone cable. It is connected to the telephone wall jack by another cable. The modem is a 
+self contained unit which is connected to the PC using a serial cable to the COM1, COM2 port 
+or USB port. It needs an external power supply and is easy to setup. 
+Internal Card : An internal modem is a circuit board (a modem card) that can be added to the 
+system unit through an expansion slot. This can not be moved easily from one computer and is 
+more difficult to setup. 
+Wireless Modem :  Wireless (radio frequency) modems transmit data signals through air 
+instead of a cable. This type of modem is designed to work with cellular technology, and 
+wireless local area networks. 
+  
+
+ 26 
+Chapter 04  : Applications and Uses of Computer 
+ 
+4.1 Uses of Computers in Different Fields 
+ 
+Q : 04-01-01 : Describe Uses of Computers in Business ? 
+Answer : 
+Uses of Computers in Business : The computer technology is vital for every functional area of an 
+organization and IT systems are integral to every functional area. 
+Marketing : Marketing applications provide information about organization’s products, its 
+distribution system, its advertising and personal selling activities, and its pricing strategies. 
+Marketing applications help managers to develop strategies that combine the four major 
+elements of marketing: Product. Promotion, Place, and Price. 
+Stock Exchanges : Stock markets around the world are in transition. The papers and trading 
+floor itself is disappearing because many stock markets launched the computerized system for 
+online trading. 
+Banks : Computerized banking have provided several benefits. The cheques are read by MICR 
+(Magnetic Ink Character Reader). Banks use mainframe computer / server to maintain their 
+customer accounts, withdrawals and deposits. Networks of ATMs (Automated Teller 
+Machine) provide 24 hour services. Credit card number eases the shoppers. 
+Departmental Store : Point of sale terminal with bar-code readers speeds the sales. The prices 
+of items are set in the server and accessible to all sale clerks. Record of sales can be used for 
+accounting restocking store inventory. Security VCR (video cassette recorder) is widely used 
+in departmental stores to record the activities of visitors 
+Office Automation : Office Automation (OA) refers to the movement towards automating 
+office tasks. An office where workers perform different tasks. The categories of activities in an 
+office are decision-making, data manipulation, document handling, communication, and 
+storage. 
+Document Management Systems (DM5) : DMS include word processing, desktop 
+publishing, reprographic, image processing, am archival storage applications. 
+Word processing enable documents to be created and edited electronically. 
+Desktop publishing enables to make documents in attractive form by the use of 
+photos artwork, graphical illustrations etc. 
+Spreadsheet is used to create a table of columns and rows used by people 
+responsible for tracking revenues, expenses, profits, loses, statistical, 
+mathematical and logical processing etc. 
+Reprographics is the process of reproducing multiple copies of a document. 
+Image processing allows documents to be scanned and stored in image oriented 
+databases. 
+Message-handling systems : It enables to send messages or documents from one 
+location to other location through facsimile (Fax), electronic mail (e-mail), Voice Mail 
+etc. 
+Office Support Systems : It enables to coordinate and manage the activities of a work 
+group. Groupware and desktop organizers are some examples of office support systems. 
+ 
+
+ 27 
+Q : 04-01-02 : Explain E-Commerce ? 
+Answer : 
+E-Commerce : Electronic-Commerce describes the buying, selling, and exchanging of products, 
+services, and information via computer network (e-commerce is describe as transactions conducted 
+between business partners via computers). Application of e-commerce are home, banking, shopping 
+in electronic malls, buying stocks, finding a job, conducting an auction etc. E-Commerce services 
+frequently used in e-business are : 
+Electronic Mail (E-mail) : It is a service that transports text messages (includes voice 
+messages) from a sender to one or more receivers via computer. 
+Video Conferencing : It is a type of conferencing in which video cameras and microphones 
+capture sight and sound for transmission over networks. It is advance form of 
+teleconferencing. It provides complete simulation of a normal meeting environment, enabling 
+both parties to see, hear and present material, just as if they were in the same room. This saves 
+cost of travel and time. 
+Electronic-Shopping (E-Shopping) : Online shopping from home, work or cyber cafe is 
+possible from anywhere in the world 24 hours a day. 
+Electronic Banking : Electronic / cyber / online banking includes various banking activities 
+conducted from home, business, or on the road instead of a physical bank location. 
+ 
+Q : 04-01-03 : Describe Use of Computers in Industry ? 
+Answer : 
+Use of Computers in Industry : Computers are used to control manufacturing system and 
+continuous running of the machinery. These also help in monitoring temperature, pressure, check the 
+quality and accuracy and measure in the manufacturing process.  
+Robots : A robot is an automatic programmable machine that moves and performs mechanical tasks. 
+Robots are used for assembling and spray-painting cars, carrying maintenance on overhead power 
+cables, to test blood samples, out space experimental programs, artificial satellites, and radioactive 
+environments etc. Robots can work in environment that are hazardous for humans, can perform 
+repetitive and boring task continuously at high level of accuracy. 
+ 
+Q : 04-01-04 : Describe Computer Aided Design (CAD) and Computer Aided 
+Manufacture (CAM) ? 
+Answer : 
+Computer Aided Design (CAD) : CAD are used for display designs and build production 
+prototypes in software, test them as a computer object according to given parameters : 
+Compile parts and quantities lists. 
+Outline production and assembly procedures. 
+Transmit the final design directly to machines. 
+CAD has many different applications like designing new car or aircraft, bridge and building. CAD is 
+capable of displaying three-dimensional object and speedily rotating it. 
+Computer Aided Manufacture (CAM) : CAM is used to control manufacturing process. CAM 
+software uses digital design output to directly control production machinery. CAM systems can 
+manufacture accurately and consistently, round the clock and cheaper. 
+ 
+
+ 28 
+Q : 04-01-05 : Describe Computer Simulation ? 
+Answer : 
+Computer Simulation : Computer model which recreates a system that might exist outside the 
+computer. Simulations are often used to train people how to deal with expensive or dangerous 
+situations, to recreate and practice for real. Flight simulation is used to train pilots to deal with 
+situation that would be expensive and dangerous to practice using a real aircraft. 
+ 
+Q : 04-01-06 : Describe Use of Computers in Medical Field ? 
+Answer : 
+Use of Computers in Medical Field : The computers are used in medical laboratories, researches, 
+scanning, monitoring, pharmacy etc. 
+Patient Monitoring : To monitor critically ill patients in intensive care units. The patients 
+have sensors attached to them, which detect changes in heart rate, pulse rate, blood pressure, 
+breathing and brain activity. Computer activates alarming device to sound and alerts the 
+medical staff if needed. 
+Patient Records : Computerized databases store information about patients, doctors, 
+medicines, chemicals and equipments. Storing information in proper order and organized 
+records saves time and effort. 
+Diagnosis : One common use of computer is to scan the body of the patient. A scanner sends 
+electromagnetic rays through a patient’s body and sensors detect patient’s body affected by 
+cancer. CAT scanner passes rays over the patient; displays images that enable physicians to 
+look beneath the patient’s skin. As scanner passes over the patient, it displays an image of 
+bone and tissue structure on a computer screen. 
+ 
+Q : 04-01-07 : Describe Use of Computers in Airline System ? 
+Answer : 
+Use of Computers in Airline System : Computers are used to control passenger aircrafts and 
+vehicles. Electronic signals from the cockpit are sent that adjust the flight surfaces. Computer is 
+embedded in the pilot’s or driver’s controls. It is linked up among different cities and gives full 
+information about its flight and seat reservation. 
+ 
+Q : 04-01-08 : Describe Use of Computers in Education and Explain Computer 
+Based Training (CBT) ? 
+Answer : 
+Use of Computers in Education : Computers are used in many colleges to provide the methods of 
+teaching in different ways. The computer education is very familiar and rapidly increasing the graph 
+of computer students. Many computer-based educational program software are available, which 
+students can learn to read, count, or speak a foreign language. Software that combines the thrills of 
+games with real information content is becoming more popular. Organizations are using information 
+technology in their employee training programs. 
+ 
+
+ 29 
+Q : 04-01-10 : Describe or Explain Computer Aided Learning (CAL) ? 
+Answer : 
+Computer Aided Learning (CAL) : CAL is the use of information technology to assist in the 
+teaching and enhance learning process. Information Technology may be able to aid us in reducing 
+the time spent on creation and maintenance of teaching materials (one document for lecture materials 
+/ reference notes / study aids). It is also reducing the administrative load associated with teaching and 
+research. 
+ 
+Q : 04-01-11 : Describe or Explain Computer Based Training (CBT) ? 
+Answer : 
+Computer-Based Training (CBT) : [An interactive learning experience between the learner and 
+computer in which the computer provides the majority of the stimulus, the learner must respond, and 
+the computer analyzes the response and provides feedback to the learner]. It can bring many 
+additional benefits to any organization, their training department and their students : 
+Students can readily acquire new skills at their own pace and at times. 
+Training times can usually be reduced. 
+Retention of course material is usually greater. 
+Interactive, visually stimulating, easily absorbed and available material encourages students to 
+undertake training. 
+Planning and time tabling problems can he reduced or eliminated. 
+Essential skills can be taught and refreshed whenever and wherever needed. 
+The quality and consistency of the training material is maintained throughout. 
+It is a highly cost-effective way to train large number of students locally or at remote places. 
+Timely and high-quality training on demand leads to increased efficiency. 
+Students absorb study material faster and retain more of information they are taught. 
+ 
+Q : 04-01-12 : Describe or Explain Use of Computer in Weather Forecasting ? 
+Answer : 
+Use of Computer in Weather Forecasting :  Computer based weather forecasting depends on 
+accurate collection of data from weather stations, airports, satellites, different sensitive devices 
+(which are situated on huge towers and buildings etc.) all around the world. The data is collected on 
+atmospheric phenomena over a region. The computer then generates a forecast of how the air will 
+change. SPARCO Weather forecasting department offers analysis of live weather data, and provide 
+help to make business decisions based on weather forecasting. 
+ 
+Q : 04-01-13 : Describe or Explain Use of Computer at Homes ? 
+Answer : 
+Use of Computer at Homes : Children play games, keep track of the stamp collections, draw 
+pictures, play music, view movies and do some sort of reading and writing according to their needs. 
+People can utilize computers for keeping records, making home budgets, using electronic mail and 
+Internet services to learn and increase their knowledge. The uses of microprocessor technology in 
+manufacturing of electronic home appliances air-conditioning, washing machine, sewing machine 
+etc., have completely changed our way of life. 
+ 
+
+ 30 
+Q : 04-01-14 : Describe or Explain The Assistance Computers provide us to 
+simplify our work practices ? 
+Answer : 
+Computer Assistance Simplifying Our Work Practices : Reasons for using computers are : 
+Computers can work faster than human’s work. 
+Computers never get tired / bored or need rest. 
+Computers can do jobs that are dangerous for human to do. 
+Computers can store large amounts of information. 
+Computers can retrieve information very quickly. 
+Computers never loose or misplace information. 
+ 
+Q : 04-01-15 : Describe or Explain The Major Personal or Business Benefits 
+provided to users by Computers ? 
+Answer : 
+Benefits To Computer Users : Computers linked through communications systems offer major 
+personal and business benefit to users : 
+Speed : Computer can perform calculations or process at a very high speed in nano second or 
+pico second. Computer can perform complex calculations, recall stored information, transmit 
+information from one location to another and move objects around on a computer screen. 
+Consistency : People often have difficulty repeating their actions. Computer excels at 
+repeating actions consistently. Whether using a spell checker built into a word processor or 
+playing multimedia animation for training purposes, a computer will carry out the activity the 
+same way every time. 
+Precision : Computers are extremely precise and can detect minute differences that people 
+cannot. Computers excel in managing the smallest differences in being precise. 
+Reliability : Speed, consistency, and precision bring reliability. When we know that the same 
+procedure will be followed rapidly, consistently, and precisely, we can expect reliability of 
+result. We can depend on getting the same result again and again without any error. 
+  
+
+ 31 
+Chapter 05  : Computer Architecture 
+ 
+5.0 Overview 
+ 
+Q : 05-00-01 : Describe Van Neumann’s Stored Program Computer ? 
+Answer : 
+Van Neumann’s Stored Program Computer : [A sequence of instructions (Program) and the data 
+are stored in the memory of the machine. The machine reads the instructions one by one and 
+executes these instructions accordingly.] In 1951, Van Neumann designed this stored program 
+computer. This simple design proved to be powerful and general purpose. It is the basis of modern 
+day computers. 
+ 
+Q : 05-00-02 : Describe most important components of modern stored program 
+machine ? 
+Answer : 
+Control Unit (CU) : The control unit reads the instructions from the memory and decodes these 
+instructions. This unit uses other components of the computer to execute the instructions given to the 
+computer. 
+Arithmetic and Logical Unit (ALU) : General-purpose computer can perform different arithmetic 
+operations on the data so it has a special unit that has electronic circuits to perform the basic 
+arithmetic and logical operations on the data. 
+Main Memory : It is used to store program and data during execution. We call it working area of the 
+computer or Primary Memory also. 
+I/O Unit : This handles the processor’s communication with the peripherals (Disc drive, monitor, 
+printer etc). There are registers to hold the data incoming or outgoing. Data and instructions should 
+be in the memory before the computer can start executing, stored program computer uses I/O 
+devices. 
+Bus Interconnection : The communication lines / channel used to connect different parts of the 
+computer together. 
+The CPU : Central Processing Unit is the brain of the computer and is centrally located on the 
+motherboard. The data come from the RAM (Random Access Memory) and the units (keyboard, 
+drives etc.). After processing, the data is sent back to RAM and the units. The work consists mostly 
+of calculations and data transport. Two typical components of a CPU are : 
+ The Arithmetic Logic Unit (ALU) : The ALU is the part of computer that performs all 
+ arithmetic computations, such as addition and multiplication, and all comparison operations. 
+ The ALU is one component of the CPU. 
+ The Control Unit (CU) : Which extracts instruction from memory, decodes and executes 
+ them, calling on the ALU when necessary. 
+Main Memory : A computer executes a program in its main memory. A computer cannot work 
+without main memory in it. Mostly the modern computer memory is built in the form of a chip of a 
+semi conductor material. It is built in the form of thousands or even millions of cells each capable of 
+storing a bit i.e. 0 or 1. These cells are logically organized into group of 8 bits called a byte. Each 
+byte in the memory has a unique number assigned, which is called the address of that byte. A 
+memory is a sequence of bytes. CPU or any other component of the computer can access any byte 
+from the main memory by specifying its address. Different bytes of the main memory can be 
+accessed directly at random and very fast. There are two types of main memory : 
+
+ 32 
+ RAM (Random Access Memory) : It is usually build by using two different technologies. 
+  DRAM (Dynamic RAM) : Dynamic Random Access Memory, a type of memory used 
+  in most computers and needs an electric current to maintain electrical state. 
+  SRAM (Static RAM) : In SRAM technology, the memory cells are made form digital 
+  gates and each cell can hold its value without any need to refresh the data as long as the 
+  power is supplied to it. As no refreshing is required by SRAM, these chips are faster 
+  than the DRAM chips and utilize less power. Its design is more complex and is more 
+  expensive. This memory is known as the cache memory and has a very small size. It 
+  increass the performance of a computer system and is volatile (unstable , the contents of 
+  the memory are lost as soon as the electricity supply is cut-off). 
+ ROM (Read Only Memory) : It can be read but new data can not be written onto it so it is 
+ read only. The manufacturer of the ROM writes the data and programs permanently onto it and 
+ this data and programs cannot be changed afterwards. ROM contains frequently used 
+ instructions and data. 
+  PROM (Programmable Read Only Memory) : Initially blank and the user or  
+  manufacturer can write data onto it by using special devices. Once the   
+  program / data is written onto PROM it can not be changed or altered. 
+  EPROM (Erasable Programmable Read Only Memory) : Initially blank, programs 
+  and data can be written on it by the manufacturer or by the used by using special  
+  devices. Unlike PROM, the data written on it can be erased by using special devices (i.e. 
+  ultraviolet rays). So data / program written on it can be changed and new data can also 
+  be added on this form of ROM. 
+  EEPROM (Electrically Erasable Programmable Read Only Memory) : This kind of 
+  ROM can be re-written by using electrical devices and so data stored on this ROM can 
+  be easily modified. 
+Important Note : All the forms of ROM are non-volatile so the data stored on these chips is not lost 
+when electricity is cut-off. RAM is volatile i.e. when electricity is cut-off, all the data is lost. 
+ 
+5.1 Bus Interconnection 
+ 
+Q : 05-01-01 : Describe Bus Interconnection and explain three types of bus ? 
+Answer : 
+Bus Interconnection : [These components are interconnected by using a set of parallel (Conducting 
+Wires).] Each of these lines can be used to transfer a sequence of bits from one component of the 
+computer to the other component. This set of parallel lines is called BUS. The system bus is divided 
+in three main categories : 
+ Control Bus : [These lines are used to transmit different commands from one component to 
+ the other.] 
+ Data Bus : [On the system bus 32 or 64 lines are reserved to transfer data from one component 
+ to the other.] A 64-line data bus can transfer  64-bits of data simultaneously so it is not difficult 
+ to see that the width of the data bus has a direct impact on the performance of the computer. 
+ Address Bus : It is important to assign a unique ID (address) to each component. Not only the 
+ address is used to identify different components of a system but it is also used to specify 
+ different memory locations within the main memory. 
+  
+
+ 33 
+Expansion Bus : As the number of components connected to the system bus increases, more 
+components will be trying to use the system bus simultaneously. This will slow-down the 
+computer as components will have to wait longer to get access to the bus. To solve this 
+problem only the major components of the computer are connected to the system bus and 
+remaining components are connected to another bus called expansion bus. The expansion bus 
+is connected to the system bus. 
+ 
+5.2 The I/O Unit 
+ 
+Q : 05-02-01 : Describe I/O Unit ? 
+Answer : 
+The I/O Unit : We have many input / output devices like keyboard, mouse, disks etc. All these 
+devices are very different from one another, can handle different data-transfer rates and support 
+different data formats. It is impractical to connect all these devices directly to the system bus as these 
+will take a lot of CPU time. A special hardware component I/O unit is used. Only the I/O unit is 
+connected to the bus and the devices are connected to it. The I/O unit is responsible for keeping the 
+track of states of different devices attached with it. It is also responsible for compensating the speed 
+difference between the processor and the I/O devices. 
+ 
+Q : 05-02-02 : Explain the TWO ways / methods of transferring data from the 
+peripherals into the computer ? 
+Answer : 
+Interrupts : The processor issues command to the I/O devices. When the devices get ready, these 
+generate an interrupt signal for the processor. On sensing this signal, the processor suspends all other 
+processing and performs the I/O operation. The disadvantage of this scheme is that it reduces the 
+over all performance of the processor. 
+DMA (Direct Memory Access) :  The processor issues I/O command and gets busy in other useful 
+tasks. The special hardware gets the data from the I/O device and uses the system bus to place it in 
+the main memory. When data is transferred, the processor does not need the system bus. So, the 
+processor does not have to wait for the I/O operation to complete. The disadvantage of this scheme is 
+that it is more complex and extensive and more hardware is needed. 
+ 
+Q : 05-02-03 : Explain CPU Registers ? 
+Answer : 
+CPU Registers : The program is stored in the main memory of the computer on contiguous 
+(continuous) memory locations. Data is loaded into computer’s memory before the processing starts 
+and the control is given to the CPU. The CPU needs storage areas where data can be stored 
+temporarily. As used frequently, so temporary storage areas are provided within the CPU for 
+enhancing the performance efficiency of the CPU. These special purpose storage areas are called 
+registers. 
+
+ 34 
+The Most Commonly Used CPU Registers 
+PC (Program Counter) : This register holds the address of the next instruction to be fetched 
+for execution. As soon this instruction is fetched, its value is incremented so that it still has the 
+address of next instruction. 
+IR (Instruction Register) : Once the instruction is fetched it is stored in the IR where this 
+instruction is decoded. 
+MAR (Memory Address Register) : When the CPU wants to store some data in the memory 
+or reads the data from the memory, it places address of the required memory location in MAR. 
+MBR (Memory Buffer Register) : The CPU uses this register to store data coming from the 
+memory or going to the memory. 
+SP (Stack Pointer) : To understand the purpose of this register it is important to understand a 
+very important data structure (Arrangement of Data) called Stack. This structure is an arranged 
+storage in LIFO (Last in First Out) order. 
+GPR (General Purpose Registers) : These resisters are called EAX, EBX, ECX, EDX and can be 
+used for any mathematical or logical operations. They are used for arithmetic and data movement 
+purposes. Each can be divided in an upper and lower byte called AH, AL, BH, BL, CH, CL, DH, DI 
+respectively. A stands for Accumulator, B for Base, C for Count and D for Data. Each of these 
+registers can alternately be used as one byte, two byte or four byte registers, AH (1 byte ), AX (2 
+bytes ), EAX (4 bytes). 
+AX (Accumulator Register) : Used for arithmetic and data operations. 
+BX (Base Register) : Used for arithmetic and data movement and special addressing abilities. 
+CX (Counter Register) : Used for counting purpose. Acts as a counter for repeating or 
+looping. 
+DX (Data) : Has special role in division and multiplication. 
+Address or Segment Registers : It is a group of 4, some times registers named CS, DS, ES and SS. 
+The segment register is used as base location for program instructions, data, and the stack. 
+CS (Code Segment) : The CS register holds the base location of all executable instructions 
+(code) in the program. 
+DS (Data Segment) : The DS register is the defaults base location for memory variables. The 
+CPU calculates the offsets of variables using the current value of DS. 
+ES (Extra Segment) : The ES register is an additional base location for the  
+memory variables. 
+SS (Stack Segment) : The SS register contains the base location of the current program stack. 
+Important Note : Each of the above registers has 2-bytes. These registers called segment 
+register and are used in conjunction with either the IP register or two index registers DI and SI 
+to address various areas of computer memory CS is the primary register or two index registers 
+used to fetch instruction in conjunction with the IP register. DS is the primary register, used to 
+point out data in the computer memory along with the DI or SI registers. 
+  
+
+ 35 
+5.3 Computer Operations 
+ 
+Q : 05-03-01 : Explain different types of operations performed by computer ? 
+Answer : 
+Computer Operations : Different types of operations performed by the computer are : 
+Data Transfer Instructions : All CPUs provide different instructions for the transfer of data from 
+and to the memory. A programmer can use these instructions to bring data into the CPU and copy 
+data from the CPU to the main memory. Instructions have the following format. 
+Arithmetic and Logical Instructions : Another important category of operations, a CPU can do is 
+Arithmetic and Logical Operations. Most CPU provides the basic arithmetic operations of add, 
+subtract, multiply and divide for signed numbers and floating point numbers. Logical operations of 
+comparing two numbers, performing XOR of number, shifting and rotating a number are some 
+common form of logical operations provided by the CPU. 
+I/O Instructions : Every CPU provides its users with the operations of reading data from a 
+peripheral device and writing data to a peripheral device. To use these operations a programmer may 
+use input and print commands provided by the CPU. 
+Control Transfer : In all real world programs, given to the CPU must be repeated a number of 
+times. To support such operations, all CPUs provide its programmers with control flow operations 
+some examples of these operations are : Jump, Jumpz (Jump if zero) etc. 
+Instruction set : Each CPU provides its users with a number of instructions so that the users can 
+perform different operation supported by the CPU. The set of all instructions provided by a CPU is 
+commonly known as the instruction set of that CPU. 
+  
+5.4 The Instruction Format 
+ 
+Q : 05-04-01 : Define Instruction Format ? Explain various Instruction Code 
+Formats in use ? 
+Answer : 
+The Instruction Format : A computer will usually have a variety of instruction code formats. It is 
+the function of the control unit within the, CPU to interpret each instruction code and provide the 
+necessary control functions needed to process the instruction. Each instruction for the CPU is 
+specified by giving : “A Code For the Instruction (opcode)” and “Addresses of the Operands”. 
+Zero-Address Instruction Format : The name “Zero-Address” is given to this type of computer 
+because of the absence of an address field in the computational instructions. A stack-organized 
+computer does not use an address field for the instructions ADD and MUL. The PUSH and POP 
+instruction, however need an address field to specify the operand that communicates with the stack. 
+One-Address Instruction Format : One-address instructions use an implied accumulator (AC) 
+register for all data manipulation. For multiplication and division there is a need for a second 
+register. 
+Two-Address Instruction Format : For two address instructions, each address field can again 
+specify either a possible register or a memory address. Two-address instructions are the most 
+common in commercial computers. Examples of such instructions are MOV, ADD, CMP and BIS. 
+
+ 36 
+Three Address Instruction : Computer with three-address instruction formats can use each address 
+field to specify either a processor register or memory operand. The advantage of the three-address 
+format is that it results in short programs when evaluating arithmetic expression. The disadvantage is 
+that the binary-coded instructions require too many bits to specify three addresses.) The instruction 
+formats in the computer are restricted to either three register address fields or two register address 
+fields and one memory address field. 
+ 
+Q : 05-04-02 : Explain Fetch-Decode-Execute Cycle with diagram ? 
+Answer : 
+Fetch-Decode-Execute Cycle : When we want to execute a sequence of instructions (program) those 
+instructions / data are first of all loaded into the main memory of the computer by using some I/O 
+device. Once these instructions have been loaded into main memory, the address of the first 
+instruction is copied into the program counter and the control is given to the CPU. The CPU 
+performs the following steps : 
+Fetch Instruction : The CPU reads the value of PC and the instruction pointed to by PC into the 
+instruction register. This instruction involves the following steps : 
+Copy the contents of PC into the MAR and request a memory read. 
+Copy the data read from the memory into MBR and instruction in the IR. Increment PC, so 
+that it points to the next instruction. 
+Decode Instruction : Once the fetching of instruction is complete the CU decodes the instruction by 
+analyzing the opcode of the instruction. It also reads the values of operands specified in the 
+instruction. Decoding means activating the appropriate circuit to execute the instruction. 
+Execute Instruction : After decoding the instruction (the processor executes the instruction by using 
+the activated circuit. Then the results of the execution are written back to registers and memory. 
+ 
+ 
+5.5 Software 
+ 
+Q : 05-05-01 : Define Software ? Differentiate between Application Software and 
+System Software ? 
+Answer : 
+Software : The term software is used for [a sequence of instructions given to the computer  
+to perform a specific task]. Software consists of the Step-By-Step instructions that tell the computer 
+what to do. 
+
+ 37 
+Application Software : Software that can perform useful work on general purpose tasks. It may be 
+either customized (special order) or packaged (ready made). 
+Customized Software : It is a software designed for a particular customer. The program can 
+be developed by a single computer professional programmer or by a team of programmers 
+depending upon the requirements. 
+Package Software : It is the kind of, Off-The-Shelf (ready made) program developed for sale 
+to the general public. Package software includes word processing, spreadsheet, database 
+manager, graphics, and communications programs. 
+System Software : System software, which includes operating system and device drivers, enables 
+application software to interact with the computer. 
+Operating Systems : It is obvious that to solve some problem on a computer a programmer 
+will write instructions. But other than writing instructions for solving the problem every 
+programmer will also have to write instructions for the following tasks : 
+Read data from the input devices and show results on the output devices. 
+Perform memory management tasks (more details latter). 
+Organize data on the storage devices. 
+These tasks are very complex and only expert programmers can write these instructions. OS  
+[a set of programs running in the background on a computer system and providing an 
+environment in which other programs can be executed and the computer system can be used 
+efficiently.] 
+ 
+Q : 05-05-02 : Explain Main Functions of Operating System ? 
+Answer : 
+Main Functions of Operating System 
+Manage Hardware Resources : The operating system must provide programmer for managing the 
+hardware resources of the computer like disks, memory, and CPU. 
+Memory Management : Every program is to be loaded into the computer’s main memory during the 
+execution. If there are several programs simultaneously loaded in the main memory, as is the case 
+when time-sharing is used, the program and its data must be protected from the actions of other 
+programs. 
+Load and Execute Programs : A program has to be loaded into the main memory before the 
+processor can execute it. The OS provides the facility of easily loading a program into memory and 
+starts its execution. 
+Data Security : The OS must also protect the user data against illegal access and modification. 
+Providing Interface to The Users : The OS must provide an interface between the user and the 
+computer and also between software and the computer. Types of interfaces : 
+Command Prompt : Users communicate with the operating system by typed commands using 
+a keyboard. Each command given to the OS activates one of the many programs in the OS. 
+Graphical User Interface (GUI) : The GUI interface consists of Window, Menus, Icons and 
+pointers. The user of the system communicates with the OS by selecting commands from the 
+menus or by selecting different icons with the pointing devices. 
+  
+
+ 38 
+5.6 The Translators and Their Functions - Interpreters and Compilers 
+ 
+Q : 05-06-01 : Describe Machine Code, Assembler, Assembly Language, Compiler, 
+Source Code and Object Code and Interpreter ? 
+Answer : 
+Machine Code : [The machine code instructions are the instructions provided as the instruction set 
+of the machine and these codes are represented by a binary pattern in the computer]. To write a 
+program the programmer had to write the instructions in binary. This was a very complex task and 
+even writing very simple programs took a long time. It was very difficult to produce correct 
+programs as detecting errors in the programs and correcting these errors (Debugging the program) 
+was very difficult. 
+Assembler : [A program that produces the binary instruction for a given assembly language program 
+is called an Assembler]. 
+Assembly Language : Assembly is a low level language, which provides instruction set for a 
+particular machine. Each assembly instruction maps to a single machine instruction so it is very easy 
+to translate a program written in assembly language to machine code. Writing programs in assembly 
+language is very easy but is still a tedious work and took a long time. 
+Compiler : [The program that translates a high-level language program into machine language is 
+called a Compiler]. A more appropriate definition of a compiler is that [it is a program that takes as 
+input a high-level language program and generates an object program]. This object program may or 
+may not be the absolute (final) machine code. 
+Source Code and Object Code : Once a program has been translated into machine code it can then 
+be loaded into the main memory and executed by the CPU. [The high-level language version of the 
+program is usually called the Source Code and the resulting machine code program is called the 
+Object Code]. 
+Interpreter : Another useful translator is an interpreter. An interpreter takes as input a high-level 
+language program and performs the following actions : 
+It repeatedly reads instructions (one at a time) and translates it to machine code. 
+It then executes the instruction. 
+ 
+Q : 05-06-02 : Differentiate between Compiler and Interpreter ? 
+Answer : 
+Difference Between Compiler and Interpreter : One difference between a compiler and an 
+interpreter is that a compiler converts each instruction only once but an interpreter may translate an 
+instruction several times. Clearly if an instruction has some error an interpreter can easily identify it. 
+Also an interpreted program runs slower than a compiled program as once a program is compiled it 
+does not need any further translation but the original program has to be translated every time it is 
+executed by an interpreter. And some instructions will be translated several times. 
+  
+
+ 39 
+Chapter 06  : Security, Copyright and The Law 
+ 
+6.0 Overview 
+ 
+Q : 06-00-01 : Define Security ? Describe the means to give access to authorized 
+persons ? 
+Answer : 
+Security : Security is a system of safeguards designed to protect a computer system and  
+data from intentional, accidental damage or unauthorized access. 
+Authorized Access : Authorized persons can access using four approaches : 
+What you have ? : You may have a key, badge, token, or plastic card to give you physical 
+access to the locked-up server room or computer building. 
+What you know ? : Standard user-IDs and Passwords or some special combination of 
+numbers are given to the users to logon the machine. 
+What you do ? : Normally, the users put their signatures on the documents to confirm their 
+legitimacy as an authorized user. 
+What You are ? : Biometrics - biological means of identification i.e. fingerprints, voice 
+recognition, eye retina etc. 
+Important Note : Loss of hardware and software are not critical. The actual problem lies in the 
+damage / loss of data. It is difficult (though not impossible) to recover it in time in case of 
+transactions based computer systems. 
+ 
+6.1 Virus and Antivirus Issues 
+ 
+Q : 06-01-01 : Define Virus or Worm ? Describe its propagation ? 
+Answer : 
+Virus (Worm) : [A virus is a program that attaches itself with other executable files by modifying 
+them so that the virus program is also loaded and executed with the execution of these programs]. A 
+virus usually performs destructive operation by deleting or modifying data stored on the storage 
+devices attached to the computer. A virus is a set of instructions so it cannot physically destroy 
+hardware (common misconception). A virus is “A destructive program containing code that can 
+generate copies of itself and attaches itself with other program so that it is automatically 
+executed when those programs are executed”. 
+ 
+Q : 06-01-02 : Describe the means through which virus propagates (reaches from 
+one computer to the other) ? 
+Answer : 
+Email : Now a days, most of the virus programs spread by attaching themselves with emails. When a 
+user opens such an infected message, virus is loaded into the computers memory and attaches copies 
+with many files. This continues and virus reaches thousands of computers. 
+Networks : When we download or share files on internet or other networks, the infected files infect 
+the computers. 
+Removable Storage Media : When we copy data from one computer to another by using a 
+removable media, the infected files are transferred. 
+
+ 40 
+Pirated Software :Companies intentionally put some virus program into their software. This 
+program will only activate when it does not find some special files like license files on your 
+computer. 
+ 
+Q : 06-01-03 : Describe important types of viruses ? 
+Answer : 
+Boot Sector Virus : The disk is divided into tracks and sectors. Operating system disk has a special 
+program in its first sector called the boot sector. When the computer is turned on, the program in the 
+boot sector is automatically loaded into the memory. The boot sector virus modifies the program in 
+the boot sector and is loaded into memory whenever computer is turned on. The virus is attached 
+with the executable files i.e. .exe, .com an .dll files. When the user uses these executable files, the 
+virus infects other files and performs destructive commands. 
+Chernobal Virus : The famous chernobal virus deletes all the Microsoft Office files and also the 
+partition information form the disk hence causing a major loss of data. 
+Logic bomb : Logic bomb, differ From other viruses in that they are set to go off at a certain date 
+and time. 
+Trojan Horse : The Trojan Horse covertly places illegal, instructions in the middle of a legitimate 
+program. Once you run the program, the Trojan horse goes to work, doing its damage while you are 
+blissfully unaware. An example of a Trojan horse is FormatC. 
+Redlof : The Redlof virus is a polymorphic virus, written in Visual Basic Script. The virus relies on 
+the Microsoft ActiveX Component vulnerability to automatically execute itself. When executed the 
+virus locates Folder.htt and infects that file. 
+Important Note 
+1 : Some viruses may make unnoticeable changes hence corrupting the data being used and some 
+viruses may even make data unusable. 
+2 : A virus program may detect some special information like passwords, or any sensitive data and 
+send it to some other user on a network. 
+3 : A virus may make resources and data unavailable to the users. For example, a virus after copying 
+itself on all computers, will start sending data on the network so that other users cannot use the 
+network. 
+ 
+Q : 06-01-04 : Describe the ways, How to safe guard against viruses ? 
+Answer : 
+Unknown Email Messages : Never open unknown email messages, and also scan (for virus) all 
+email messages even if you know the sender of the message. 
+Data Transfer : Minimize the data transfer between computers through the use of floppy disks, flash 
+drives and other removable media. Always scan removable media before using. 
+Internet : Do not download free-ware programs without first checking it for virus. 
+Antivirus Software : Always use a virus detecting software to detect and to delete the infected 
+programs from your system. You should periodically update these programs. 
+Always Keep Backup : Another important way to save yourself from the destruction of virus attack 
+is that you should always keep backup of your data. The backup will be useful if a virus attack 
+deletes your data or modifies it. 
+ 
+6.2 Data Security 
+ 
+
+ 41 
+Q : 06-02-01 : Explain Data Security ? 
+Answer : 
+Data Security : The means of ensuring that data is kept safe from corruption and that access to it is 
+suitably controlled. Thus data security helps to ensure privacy and protect personal data. 
+Offering protection from data theft and data loss. 
+Protecting data from deliberate or accidental access by unauthorized persons. 
+ 
+Q : 06-02-02 : Describe the ways the Data Security may be violated ? 
+Answer : 
+Data Security Violations : 
+Physically Breaking Into Computer Center / Room : Someone may break into the computer room 
+and take away all storage devices housing the sensitive data. 
+Unauthorized Access : Unauthorized users may take access to personal data of someone and then 
+use it to gain some advantage. By accessing credit card number, online shopping from others 
+account. 
+Unauthorized User : Unauthorized user may use an online mail server, like mail.yahoo.com to view 
+email messages of other users hence causing privacy issue. 
+Virus on Network : Someone can send a virus onto a network causing the network to become very 
+slow or even unusable. 
+Unauthorized Access to Bank Accounts : Some users may gain unauthorized access to bank 
+accounts and transfer of money from other accounts to their personal accounts. 
+Computer Becomes Unavailable to Authorized Users : A person may make a computer so busy by 
+sending many requests so that the computer becomes unavailable to authorized users. Its called 
+denial of service situation. 
+ 
+Q : 06-02-03 : Describe the main threats to Data Security ? 
+Answer : 
+Security Threats : 
+Unintentional Damage : Some authorized user of the data may unintentionally delete or change 
+sensitive data. Assigning proper rights to users and periodical backup can minimize the loss. 
+Proper Password Protection : Proper password protection should be used to access any resource. A 
+log file should also be maintained to keep track of all the activities on the data / files. 
+Encryption Algorithm : Encryption algorithm should be used, so that if someone gets access to the 
+data, he / she should not be able to make any sense out of it. 
+Virus Scanning Software : Proper virus scanning software should be used to scan all data coming 
+into the organization. 
+Safe Rooms : Computers and all hacking storage devices should be placed in locked rooms with 
+only authorized access to these resources. 
+Periodically Change Passwords : Authorized users must he asked to change their passwords 
+periodically. 
+ 
+Q : 06-02-04 : Describe Data Protection ? 
+Answer : 
+Data Protection : 
+ 
+
+ 42 
+Prevention of misuse of computer data; legal safeguards to prevent misuse of information stored on 
+computers, particularly information about individual people. 
+Installation of safeguards for computer data: the adoption of administrative, technical, or physical 
+deterrents to safeguard computer data. 
+ 
+Q : 06-02-04 : Describe Data Privacy Issue ? 
+Answer : 
+Data Privacy Issue :  
+Right to See Personal Data : An individual has a right to see the data kept about him. 
+Right to Stop the Processing : He has the right to stop the processing of his data by the 
+organization. 
+Compensation for Discloser : He has the right to claim a compensation from the organization for 
+any kind of disclosure of data disallowed by the law. 
+Discloser is a Crime : No worker of the organization is allowed to disclose or use the data kept by 
+its organization, failing to abide by, is committing a crime. 
+Safeguard Against Crime : Data protection act tries to minimize the misuse of personal information 
+to provide a safeguard against such crime. 
+Adequate / Necessary Data : An organization collecting data should collect only the data adequate 
+and necessary for its working and should not collect un-necessary data. 
+ 
+Q : 06-02-05 : Describe the points necessary to ensure Individual’s Privacy ? 
+Answer : 
+Individual’s Privacy :  
+Responsibility : The organization is responsible for keeping the data updated. 
+Life of Data : The organization should keep data for the specified period of time only and can not 
+keep it longer than necessary. 
+Rights of Individual : During the processing of data, the rights of the individual should not be 
+violated. 
+Security of Data : The organization is responsible for all kinds of security of data. 
+ 
+6.3 Data Protection Legislation and Copyright Issues 
+ 
+Q : 06-03-01 : Define Data Protection Legislation ? And state principles of Data 
+Protection Act ? 
+Answer : 
+Data Protection Legislation : [The data protection legislation defines the laws that ensure data 
+protection]. Many countries have defined the data protection legislation and in some advanced 
+western countries; this law is enforced properly as well. 
+The Principles of Data Protection Acts : 
+Purpose : The purpose of keeping and distributing personal data must be clearly defined by 
+organization obtaining that data. 
+Identity of Keeping Organization : The individual must be informed about the identity of the 
+organization / individual maintaining data. 
+Necessity : The processing is necessary to fulfill the contract between two parties. 
+Individual’s Interest : The processing is required by law or is necessary to carry out interest of the 
+individual. 
+
+ 43 
+ 
+6.4 Important Privacy Acts 
+ 
+Q : 06-04-01 : Describe various Important Privacy Acts ? 
+Answer : 
+The 1980 Privacy Protection Act : This prohibits agents of federal government from making 
+unannounced, searches of press office if no one there is suspected of a crime. 
+The 1984 Cable Communications Policy Act : This restricts cable companies in the collection and 
+sharing of information about their customers. The “Data Protection Act 1984” is intended to protect 
+the individual from unauthorized use and disclosure of personal information held on a computer 
+system. 
+It consists of eight principles : 
+ Fair / Lawful Processing : The information shall be obtained and the data shall be processed, 
+ fairly and lawfully. 
+ Specified and Lawful Purpose : Personal data shall be held only for one or more specified 
+ and lawful purposes. 
+ Incompatible Use / Discloser : Personal data held for any purpose shall not be used or 
+ disclosed in any manner incompatible with that purpose or those purposes. 
+ Adequate / Relevant Holding : Personal data held for any purpose shall be adequate, relevant 
+ and not excessive in relation to that purpose(s). 
+ Accurate and Up To Date : Personal data shall be accurate and kept up to date. 
+ Duration : Personal data held for any purpose(s) shall not be kept for longer than is 
+ necessary. 
+ Entitlement : An individual shall be entitled, at reasonable intervals and without undue delay 
+ or expense, to be informed by any data user whether he holds personal data of which that 
+ individual is the subject. 
+ Security : Appropriate security measures shall he taken against unauthorized access to, or 
+ alteration, disclosure, accidental loss, or destruction of personal data. 
+The 1987 Computer Security Act : It makes actions that affect the computer security files and 
+telecommunication illegal. 
+The 1988 Video Privacy Protection Act 1988 : It prevents retailers from disclosing a person’s 
+video rental records without a court order; privacy supporters want the same rule for medical and 
+insurance files. 
+Computer Matching and Privacy Protection Act of 1988 : It prevents the government from 
+comparing certain records in an attempt to find a match. However, most comparisons are still 
+unregulated. 
+The Computer Misuse Act 1990 : It makes provision for securing computer material against 
+unauthorized access or modification; and for connected purposes. It was passed to deal with the 
+problem of hacking of computer systems. This was introduced to recognize three key offences : 
+Unauthorized access to computer material. 
+Unauthorized access with intent to commit or facilitate commission of further offences. 
+Unauthorized modification of computer material. 
+The 1998 Data Protection Act : It came into force early in 1999 and covers how information about 
+living identifiable persons is used. The 1998 Act applies to : 
+Computerized personal data. 
+Personal data held in structured manual files. 
+
+ 44 
+It applies to anything at all done to personal data (“processing”), including collection, use, 
+disclosure, destruction and merely holding personal data. 
+  
+
+ 45 
+Chapter 07  : Windows Operating System 
+ 
+7.0 Overview 
+ 
+Q : 07-00-01 : Define OS (Operating System) ? 
+Answer : 
+Operating System : [An operating system is system software that provides an interface for the user 
+to interact with the computer]. Without an Operating System a computer would be useless. The 
+purpose of an operating system is to organize and control hardware and software so that the devices 
+it manages behave in a flexible but predictable way. 
+ 
+7.1 Types of Operating System 
+ 
+Q : 07-01-01 : Describe Types of OS (Operating System) on the basis of user 
+interaction ? 
+Answer : 
+Types of Operating System : Operating systems are classified on the basis of various features such 
+as user interaction, how many tasks they can perform at a time, and how many processors they can 
+support etc. On the basis of user interaction there are two types of operating system : 
+GUI (Graphical User Interface) Operating system. 
+Command Line Operating System. 
+Graphical User Interface (GUI) Operating System : A GUI operating system provides a 
+graphical user interface to establish the user communication with the computer. The user does 
+not require memorizing commands to perform various tasks such as copying a file, opening a 
+document, printing a spreadsheet etc. The user uses graphical objects (e.g. icon, windows, 
+buttons etc) to perform different tasks. He/She just requires recognizing various graphical 
+objects and tasks that can be performed with them. Examples of GUI operating system are 
+Windows, Linux. and Solaris etc. 
+Command Line Operating System : A command line operating system provides a command 
+prompt to the user for typing different commands to interact with the computer. The user 
+needs to memorize commands to perform deferent tasks. Examples of Command line 
+operating systems are DOS (Disk Operating System), Unix etc. 
+ 
+Q : 07-01-02 : Give a tabulated comparison between a Command Line OS and a 
+GUI OS ? 
+Answer : 
+Command Line Interface OS Vs Graphical User Interface OS  
+Feature  Command Line OS GUI OS 
+Ease 
+Because of the memorization and 
+familiarity needed to operate a 
+command line interface new users find 
+it much more difficult to successfully 
+navigate and operate a command line 
+interface.  
+Although new users may  
+have a difficult at time  
+learning to use the mouse to  
+operate and use a GUI most  
+users pick up this interface  
+much easier when compared  
+to a command line interface.  
+
+ 46 
+Control 
+Users have much more control of their 
+file system and operating system in a 
+command line interface. For example 
+users can easily copy a specific type of 
+file from one location to another with a 
+one-line command.  
+Although a GUI offers plenty of control 
+of a file system and operating system, 
+often advance users or users who need to 
+do specific task may need to resort to a 
+command line to complete that task  
+Multi-
+tasking 
+Although many command line 
+environments are capable of 
+multitasking they do not offer the same 
+ease and ability to view multiple things 
+at once on one screen.  
+GUI users have windows that enable a 
+user to easily view, control, and 
+manipulate multiple tasks at once and are 
+commonly much faster.  
+Speed 
+Because command line users  
+only need to use their  
+keyboards to navigate a command line 
+interface and often only need to 
+execute a few lines to perform a task. 
+An advanced command line interface 
+user would be able to get something 
+done faster. 
+A GUI may be easier to use  
+because of the mouse.  
+However using a mouse and / or 
+keyboard to navigate and control your 
+operating system for many tasks is going 
+to be much slower in this case. 
+Scripting 
+A command line interface enables a 
+user to easily script a sequence of 
+commands to perform a task or execute 
+a program. 
+Although a GUI enables a user to create 
+shortcuts, tasks, or other similar actions 
+to complete a task or run a program it 
+doesn’t even come close in comparison 
+to what is available through a command 
+line. 
+ 
+Q : 07-01-03 : Explain The Purpose of Operating System ? 
+Answer : 
+Purpose of Operating System : There are two basic purpose of an operating system : 
+Manage Resources : It manages the hardware and software resources of the system. These resources 
+include the processor, memory, disk space, etc. 
+Interface : It provides a stable, consistent way for applications to deal with the hardware without 
+having to know all the details of the hardware. 
+ 
+7.2 Starting to Use Windows Operating System 
+ 
+Q : 07-02-01 : Explain The Objects of MS Windows Operating System ? 
+Answer : 
+The Objects of MS Windows Operating System : Windows consists of number of graphical 
+objects which act as interlace between user and the computer. It controls the overall working of the 
+computer system, manages system resources, and provides a multitasking environment for the user to 
+perform more than one task simultaneously. The basic components of MS Windows Operating 
+System are : 
+Desktop : The on-screen work area on which windows, and dialog boxes appear is called desktop. 
+The desktop is actually the entering point in Windows. The first object that you see on starting 
+
+ 47 
+windows is the desktop (screen). It contains icons (images) for working with different applications 
+that you need to interact with on regular basis. 
+My Computer : On windows Desktop, you will see and icon captioned My computer. While 
+installing windows, you divide the hard disk into multiple partitions; each one is referred to as a 
+drive. When you double click the My Computer icon, it shows you all drives on your system 
+including a floppy drive, and CD drive. These drives are represented as icons in a window  
+Recycle Bin : You may create new folders and files on any drive. It may be required to delete them. 
+When you delete a file or folder, it does not remove from the hard disk permanently. Rather 
+Windows maintain a storage area on the hard disk for storing the deleted items. This storage space is 
+named as Recycle Bin. The deleted items are moved to Recycle Bin. You can permanently delete or 
+restore them from Recycle Bin. 
+My Documents : It is a folder created by windows on installation time. It is the default folder for 
+storing different kinds of documents. If you create a document in Microsoft Word or MS Excel and 
+don’t specify the location where it should he saved, then by default windows will save it in My 
+Documents folder. 
+Windows Explorer : Windows Explorer acts as a directory browser and File Manager for Windows. 
+It is an efficient way for locating and managing files on your computer. Using Explorer you can 
+easily browse through all the drives and network resources available. 
+Internet Explorer : Internet Explorer is web browser that is launched with Microsoft Windows 
+Operating system. It is used to surf Internet. It is powerful web browser providing advance features 
+to work on WWW.  
+The Window : The most important feature of windows operating system is a window. This is the 
+basic building block of all graphical objects in MS Windows. Windows view most of graphical 
+objects as window. Different applications start in different window objects e.g. Internet explorer, 
+windows explorer, MS Word, and MS Excel etc. 
+Control Panel : Control Panel is the place where you can perform system management tasks such as 
+installing / uninstalling new hardware devices, managing system resources through administrative 
+tools, sharing primers, and setting up date and time etc. 
+Start Button : Start button is the gateway of accessing most of the programs installed on the 
+computer. You can start any program by just making a mouse click, can open or find documents, can 
+change windows settings, can get Help, can manage files, can maintain system, and can do much 
+more. 
+ 
+Q : 07-02-02 : Explain The Procedure for working with Mouse and Keyboard ? 
+Answer : 
+Working with Mouse and Keyboard : Mouse and keyboard are the basic input devices used with 
+personal computers. Almost every operating system running on PCs provides interaction through 
+these devices. Microsoft Windows captures different actions performed by the mouse and the 
+keyboard. These actions are referred as events. Here we discuss some important mouse and keyboard 
+events : 
+Mouse Events : Mouse events are the actions that call he performed by using the mouse. Most 
+common events triggered with a mouse are : 
+Left Click : This event triggers when you press the left mouse button. Windows captures this 
+event and performs certain tasks. Normally this event is used to select a graphical object such 
+as a file icon or text in a document, or to press a button such as the start button and closing, 
+opening or minimizing a window etc. 
+
+ 48 
+Right Click : This rent triggers when you press the right mouse button. Most of the time, this 
+event is used to view the properties of an object such as tile,  
+folder, desktop etc. 
+Drag : This event triggers when you press the left mouse button and move the mouse while 
+keeping the left mouse button pressed. This event is used to select more than one items at a 
+time, or to drop an object into another application. 
+Keyboard Events : Keyboard events are the action that can be performed by using the keyboard. 
+Different applications / programs perform different actions against these events. Most common 
+events triggered with a keyboard are : 
+Key Up : This event triggers when you release an already pressed key of the keyboard. 
+Key Down : This event triggers when you press any of the keyboard’s key. 
+ 
+Q : 07-02-03 : Explain The Features of MS Windows OS ? 
+Answer : 
+The Features of MS Windows OS : Microsoft Windows is a complete operating system. Their 
+initial versions were lacking network support but almost all of the latest versions are providing 
+networking features. We shall consider Windows 2000 while discussing features of Windows 
+operating system : 
+Multitasking : The capability of an OS to load multiple programs into memory at one time 
+and to perform two or more processes concurrently, such as printing a document while editing 
+another is known as multitasking. Windows 2000 is a multitasking operating system. It let you 
+execute multiple tasks at a time. And it responds to all tasks so quickly that it seems to be 
+paying full attention to every task. 
+Multiprocessing : Windows 2000 provide multiprocessing capability. It is capable of 
+supporting and utilizing two or more microprocessors in a computer. A big task is divided into 
+a number of small independent components, and each processor is assigned a different 
+component. The processors work on different component in parallel. As a result the assigned 
+task is completed in considerably short interval of time as compared to a single processing 
+environment. 
+Multi-User Operating System : Windows 2000 is a multi-user operating system. A multi-
+user Operating System allows for multiple users to use the same computer at the same time 
+and / or different times. 
+Plug and Play : Plug and Play refers to a set of specifications that allow a computer to 
+automatically detect and configure a device, and install the appropriate device drivers. 
+Windows 2000 is equipped with this feature. It has a mechanism defined that automatically 
+detects a new hardware device. There are number of device drivers launched with Windows 
+2000, so you don’t need to install drivers for many devices, windows itself choose an 
+appropriate one for you. However, sometimes you may need to install a driver for some 
+devices if it is not available in the windows pack. 
+Networking : Windows 2000 is equipped with full networking support. Ii provides features 
+for establishing, maintaining and troubleshooting a network. 
+ 
+7.3 Disk Management  
+ 
+Q : 07-03-01 : Explain Disk Management by MS Windows OS ? 
+Answer : 
+
+ 49 
+Disk Management : Windows has strong disk and file management capabilities. Before going into 
+details of Windows disk and file management features, it is important to understand basic concepts 
+about them. Prior to Windows installation on a computer, the disk is divided into multiple partitions. 
+A partition is a portion of physical disk that functions as though it were a physically separate disk. 
+Windows usually create two basic types of partitions : 
+Primary Partition : It can be used as the system partition. Windows 2000 and other operating 
+systems can start from a primary partition. You can create up to four primary partitions on a 
+basic disk, or three primary partitions and an extended partition. Primary partitions can be 
+created only on basic disks and cannot be sub partitioned. 
+Extended Partition  : Extended partition refers to a portion of a disk that can contain other 
+partitions. Only one of the four partitions is allowed per physical disk can be an extended 
+partition, and no primary partition needs to  
+be present to create an extended partition. 
+ 
+Q : 07-03-02 : Explain Disk Management Utility ? 
+Answer : 
+Disk Management Utility : The Disk Management utility gives you a graphical interface for 
+viewing and performing maintenance on all of the hard drives and CD drives in your computer / 
+server. You can see immediately whether your drives (both physical and logical) are healthy or not. 
+In this utility, you can find the size of the drive, its size and file system and status at a glance. Disk 
+management also indicates which drive contains the system partition. There are several different 
+messages you can receive as to the status of the disks, and those are at times dependant on what type 
+of disk it is. 
+ 
+7.4 File Management  
+ 
+Q : 07-04-01 : Explain File Management ? 
+Answer : 
+File Management : Files are recognized by their extensions in Microsoft Windows. When you 
+attempt to open a file, Windows checks the File extension against a database of registered file types 
+(windows registry) to determine what action it should take. A registered file type can have multiple 
+actions e.g. open and print etc. If windows does rot recognize the file type, it offers a dialog box and 
+lets you choose the appropriate application to view the file. 
+ 
+Q : 07-04-02 : Explain Windows Explorer ? 
+Answer : 
+Windows Explorer : Windows Explorer acts as a file manager if Windows Operating  
+System. You can manage tiles and folders on your computer through Windows Explorer. Files and 
+folders are the basic file management units in Window. Windows explorer offers many actions that 
+can he performed on files and folders. You can cut, copy, paste, rename or delete a tile or folder from 
+windows explorer. It shows files and folders in a hierarchical way. It contains two panes; left pane 
+displays folders, and drives on your computer in a tree view shape whereas the right pane shows the 
+detailed view of folder or drivel selected in the left pane. With windows explorer, not only you can 
+manage the local files, folders and drives but also the remote files and folders. 
+ 
+7.5 Control Printing Jobs  
+
+ 50 
+ 
+Q : 07-05-01 : Explain how Windows control printing jobs ? 
+Answer : 
+Control Printing Jobs : Windows have powerful features to control printing jobs. Windows 
+maintains a print queue for the jobs to be printed. You can share a printer on a the network as well, 
+so that the whole network can take advantage of the printer resource. You can add multiple printers 
+to your computer. But at a time only one of them will be assigned a default status. All jobs are 
+directed to default printer by default. If you want to direct a particular job to another printer, you may 
+specify at the time of printing. The default printer can he changed at any time by just selecting 
+printers from the setting submenu of the start menu, and then setting on the option “set as default 
+printer”. 
+Adding A New Printer : You can add a new printer to your computer by following these steps: 
+Click Start button. 
+Follow the settings submenu. 
+Click printer. 
+A window will appear, double click the icon captioned Add Printer. 
+Follow the steps offered by the wizard to add a new printer. 
+Print Queue :  Windows maintain a print queue for all ongoing printing jobs. You can manipulate a 
+printing job in multiple ways by just double clicking the printer icon. You can follow the above-
+described steps to view the printer icon. You can cancel or stop a printing job at any time. Similarly 
+many other printing options can be set such as changing the printing layout (landscape or portrait), 
+and printing preferences e.g. effects and finishing etc. 
+  
+
+ 51 
+Chapter 08  : Word Processing 
+ 
+8.0 Overview 
+8.1 What is a Word Processor ? 
+ 
+Q : 08-01-01 : What is a Word Processor ? 
+Answer : 
+Word processing software is probably one of the most frequently used packages in any 
+organization. People use it for everything from quick notes to complex, book-length documents. in 
+fact, it has been estimated that more than 90 percent of all personal computers have a word processor 
+installed. Word processing is more than just electronic typing. it involves creating, editing, 
+formatting and inting documents in variety of form. 
+Hundreds of newspapers, magazines, letters and advertisements are all miracles of word processing 
+software. Businesses, Government agencies, schools and individuals create thousands of documents 
+for numerous purposes on daily basis.  
+Word processor is an application (software) that provides extensive tools for creating all kinds of 
+text-based documents. Word processor can manipulate not only the text but also it enables you to 
+add images, sounds, charts and graphics in your document. With some of advanced word processors 
+you can embed video clips as well. Word processors can even create documents for publishing on 
+the World Wide Web, complete with hyperlinked text and graphics. 
+ 
+8.2 A Simple Word Processor (Text Editor) 
+ 
+Q : 08-02-01 : What is a Simple Word Processor or Text Editor ? 
+Answer : 
+Word processors vary considerably, but all word processors support some basic features. Word 
+processors that support only these basic features (and maybe a few others) are called text editors e.g. 
+Word Pad, Note Pad etc. All word processors provide the following basic features: 
+Insert Text : Allows you to insert text anywhere in the document. 
+Delete Text : Allows you to erase characters, words, lines, or pages as easily as you can cross them 
+out on paper. 
+Cut and Page : Allows you to remove (Cut) a section of text from one place in a document and 
+insert (Paste) it somewhere else. 
+Copy : Allows you to duplicate a section of text. 
+Page Size and Margin : Allows you to define various page sizes and margins, and the word 
+processor will automatically readjust the text so that it fits properly. 
+Search and Replace : Allows you to direct the word processor to search for a particular word or 
+phrase. You can also direct the word processor to replace one group of characters with another 
+everywhere that the first group appears. 
+Word Wrap : The word processor automatically moves to the next line when you have filled one 
+line with text, and it wilt readjust text if you change the margins. 
+Print : Allows you to send a document to a printer to get hardcopy. 
+ 
+
+ 52 
+8.3 Full-Featured Word Processors 
+ 
+Q : 08-03-01 : Explain Full-Featured Word Processor ? 
+Answer : 
+Most word processors, however, support additional features that enable you to manipulate and 
+format documents in more sophisticated ways. These more advanced word processors are sometimes 
+called full-featured word processors. Full-featured word processors usually support the following 
+features : 
+File Management : Many word processors contain file management capabilities that allow you to 
+create, delete, move, and search for files. 
+Font Specifications : Allows you to change fonts within a document. For example, you can specify 
+bold, italics, and underlining. Most word processors also let you change the font size and even the 
+typeface. 
+Footnotes and Cross-References : Automates the numbering and placement of footnotes and 
+enables you to easily cross-reference other sections of the document. 
+Graphics : Allows you to embed illustrations and graphs into a document. Some word processors 
+let you create the illustrations within the word processor; others let you insert an illustration 
+produced by a different program. 
+Headers, Footers, and Page Numbering : Allows you to specify customized headers and footers 
+that the word processor will put at the top and bottom of every page. The word processor 
+automatically keeps track of page numbers so that the correct number appears on each page.  
+Layout: Allows you to specify different margins within a single document and to specify various 
+methods for indenting paragraphs. 
+Macros : A macro is a character or word that represents a series of keystrokes. The keystrokes can 
+represent text or commands. The ability to define macros allows you to save yourself a Jot of time 
+by replacing common combinations of keystrokes. 
+Merges : Allows you to merge text from one tile into another file. This is particularly useful for 
+generating many files that have the same format but different data. Generating mailing labels is the 
+classic example of using merges. 
+Spell Checkers : A utility that allows you to check the spelling of words. ft will highlight any words 
+that it does not recognize. 
+Tables of Contents and Indexes : Allows you to automatically create a table of contents and index 
+based on special codes that you inscrt in the document. 
+Thesaurus : A built-in thesaurus that allows you to search for synonyms without leaving the word 
+processor. 
+Document Windows : Allows you to edit two or more documents at the same time. Each document 
+appears in a separate window. This is particularly valuable when working on a large project that 
+consists of several different files. 
+WYSIWYG (What You See Is What You Get) : With WYSIWYG, a document appears on the 
+display screen exactly as it will look when printed. 
+ 
+A full-featured word processor can even have many other features. Microsoft Word is one of the 
+most popular full-featured word processors. 
+ 
+  
+
+ 53 
+Chapter 09  : Spreadsheet Software 
+ 
+9.0 Overview 
+9.1 Features of Spreadsheet Software 
+ 
+Q : 09-01-01 : Describe Basic Features of Spreadsheet Software ? 
+Answer : 
+Basic Features of Spreadsheet Software 
+A Spreadsheet program is a software tool for entering, calculating, manipulating and analyzing sets 
+of numbers. The specialty of spreadsheet software is working with numbers. This can hold large 
+amount of data arranged in rows and columns. It can manipulate numbers and present information in 
+numerous ways. Like Word Processors, the Spreadsheet software also varies significantly e.g.  
+LOTUS 123, Quatro Pro and MS Excel etc. But all of them have following basic features : 
+The spreadsheet is a grid of rows and columns. Each row is assigned a number and each column a 
+letter. The intersection of a row and a column forms a cell. Each cell has a reference number that is 
+formed by combining the column number and row number e.g. A1, G18 etc. A cell contains labels or 
+values. A label is a text entry such as “Gross Salary” whereas a value can be a number, a date, a 
+formula or a formula’s result. 
+Formulae : Formulas are used to express mathematical relationships between cells. 
+Functions : Functions are used to perform certain tasks. 
+Commands : Commands are used to manipulate the worksheet or its contents. 
+Text Manipulation : Some simple text manipulation can also be performed. 
+Print : Allows you to send a document to a printer to get a hardcopy. 
+ 
+9.4 Basics of Worksheet 
+ 
+Q : 09-04-01 : Describe Common Forms of Data Entered in a Cell ? 
+Answer : 
+Common Forms of Data Entered in a Cell 
+The data entered in a cell can take variety of forms but the most common of these are : 
+Labels (Simple Text) : Labels are used to identify a value or a series of values. Labels are helpful in 
+making the worksheet meaningful. It is important to note that formulas can be applied only on 
+values; these cannot be applied on labels. 
+Values (Numbers) : Values are just numbers that you enter in different cells of a worksheet. These 
+can be whole numbers, decimals, negative numbers, currency and other types of values including 
+scientific notations. 
+Formulas : Working with Formulas is the most powerful feature of a spreadsheet. Formula can be 
+calculated on the basis of values or formulas in other cells. Formulas can involve basic arithmetic 
+operators. More complex formulas can even evaluate logical conditions and perform certain 
+calculations on the basis of the result of the evaluation. Conditions may evaluate to true or false. 
+ 
+Q : 09-04-02 : Describe Cell References and Ranges ? 
+Answer : 
+Cell References and Ranges 
+A cell reference tells formula to look up the contents of the referenced cell. This increases the 
+flexibility of the formula. The change in the contents of the referenced cell is quickly reflected to the 
+
+ 54 
+result of the formula being calculated on the basis o this cell. The cell is referred to by its address 
+such as AC5 and Y10 etc. The range is referenced as D5:Z5 (all cells from D5 to Z5). 
+ 
+Q : 09-04-03 : Describe Relative and Absolute Cell Referencing ? 
+Answer : 
+Relative and Absolute Cell Referencing 
+Relative Cell Referencing : Calling cells by just their addresses (such as “A1”) is called relative 
+referencing. When a formula contains relative referencing and it is copied from one cell to another, 
+the spreadsheet does not create an exact copy of the formula. It will change cell addresses relative to 
+the row and column they are moved to. If a simple addition formula in cell C1 i.e. =(Al+B1) is 
+copied to cell C2 the formula would change to =(A2+B2) to reflect the new row. 
+Absolute Cell Referencing : To prevent this change, cells must he called by absolute referencing. 
+This is accomplished by placing dollar signs “$” within the cell addresses in the formula. Like 
+entering in C1, =($A$1+$B$1). If the value of cell should be the sum of cells Al and B1. Both the 
+column and row of both cells are absolute and will not change when copied to C2. 
+ 
+Q : 09-04-04 : Explain Named Ranges of Cells in MS Excel ? 
+Answer : 
+Named Ranges of Cells  
+Range names are names that you define to represent a cell or cell range on a worksheet. These range 
+names can further be used in formulas instead of cell addresses or ranges. They also make it easier to 
+use, maintain, and understand the formulas in the worksheet. e.g. the formula =C10 * 100 / C8 
+calculates the percentage of marks. After giving names to cells, this can be expressed as = 
+Marks_Obtained * 100 / Total_Marks. 
+Defining Range Names 
+To define a name for a cell or range of cells select Insert from the menu bar. The following dialog 
+box will appear. 
+ 
+ 
+ 
+We can give names to cells or cell ranges instead of using their address. After assigning names to 
+cells or cell ranges you can use these names in formulas instead of the addresses.  
+ 
+  
+
+ 55 
+Chapter 10  : Fundamentals of Internet 
+ 
+10.0 Overview 
+ 
+Q : 10-00-01 : Describe brief early history of the Internet ? 
+Answer : 
+Internet : In 1969, Advanced Research Project Agency (ARPA) established a small computer 
+network among different universities and defense organizations. The goal was to establish a large 
+computer network that could survive in war times. Initially ARPANET was a wide area network 
+connecting a small number of users. There were only four hosts (A host is a computer that provide 
+services to other computers of the network). But the network grew rapidly and spanned over 
+countries. Meanwhile another research organization, National science foundation, joined the project. 
+NSF established five supercomputing centers which were available to all researchers for academic 
+purposes. To provide high speed access to supercomputers, NSF established a separate high speed 
+network called NSFnet. During this period, some other small networks had also been established 
+among various universities and organizations. The authorities decided to link ARPANET, NSFnet 
+and other small networks so that they can communicate each other. This link among different 
+networks is referred to as the Internet. 
+ 
+10.1 How the Internet Works ? 
+ 
+Q : 10-01-01 : Describe how Internet Works ? 
+Answer : 
+How the Internet Works ?  
+The Internet is a huge collection of millions of computers, all linked together on a computer network. 
+The network allows all of the computers to communicate with one another. A home computer may 
+be linked to the Internet using a phone-line modem, DSL or cable modem that communicates to an 
+Internet Service Provider (ISP). A computer in a business or university will usually have a Network 
+Interface Card (NIC) that directly connects it to a Local Area Network (LAN) inside the business. 
+The business can then connect its LAN to an ISP using a high-speed phone line like a T1 line. A T1 
+line can handle approximately 1.5 million bits per second, while a normal phone line using a modem 
+can typically handle 30,000 to 50,000 bits per second. ISPs then connect to larger ISPs, and the 
+largest ISPs maintain Fiber-Optic “backbones” for an entire region. Backbones around the world are 
+connected through fiber-optic lines, undersea cables or satellite links. In this way, every computer on 
+the Internet is connected to every other computer on the Internet. 
+ 
+10.2 Addressing Schemes 
+ 
+Q : 10-02-01 : Describe Addressing Scheme ? Explain the two types of Addressing 
+Schemes ? 
+Answer : 
+Addressing Scheme : The purpose of the Internet is to establish communication between widely 
+spread computers. Computers can send and receive data to each other. Any computer may initiate a 
+transaction at any time. For this reason the source machine (computer) must have a unique 
+identification of the destination computer. On the Internet every computer has a unique address and 
+can be contacted on this address. There are two types of addressing schemes recognized on the 
+
+ 56 
+Internet, these are : 
+IP Addressing : To keep all of these machines straight, each machine on the Internet is assigned a 
+unique address called an IP address. IP stands for Internet Protocol, and these addresses are 32-bit 
+numbers, normally expressed as four “octets” in a “dotted decimal number.” A typical IP address 
+looks like this : 216.27.61.137. 
+The four numbers in an IP address are called octets because they can have values between 0 and 255, 
+which are 2
+8
+ possibilities per octet. Every machine on the Internet has a unique IP address. A server 
+has a static IP address that does not change very often. A home machine that is dialing up through a 
+modem often has an IP address that is assigned by the ISP when the machine dials in. That IP 
+address is unique for that session; it may be different the next time the machine dials in. This way, an 
+ISP only needs one IP address for each modem it supports, rather than for each customer. As far as 
+the Internet’s machines are concerned, an IP address is all you need to talk to a server. For example, 
+in your browser, you can type the URL http:// 216.27.61.137 and arrive at the machine that contains 
+the Web server for the specified IP-Address. 
+DNS Addressing : Because most people have trouble remembering the strings of numbers that make 
+up TP addresses, and because IP addresses sometimes need to change, all servers on the Internet also 
+have human-readable names, called domain names. For example, www.hotmail.com is a permanent, 
+human- readable name. It is easier for most of us to remember it than it is to remember an IP 
+Address. The name www.hotmail.com actually has two parts, a host name and domain. The domain 
+represents the institution which uses the address. These domain names are called top-level domain. 
+Following is a list of top level domains : 
+Domain Type of Institution 
+.com  Business (Commercial) 
+.edu  Educational Institutes 
+.gov  Government Organizations 
+.mil  Military Organizations 
+.org  Other Organizations (non profitable) 
+Important Note : Some large organizations divide their top level domain into sub domains. This lets 
+them organize their web references. 
+ 
+10.3 Web Browsing 
+ 
+Q : 10-03-01 : Explain Web Browsing ? 
+Answer : 
+Web Browsing : Searching information on the World Wide Web is referred to as Web browsing. A 
+software known as Web browser is used to search and view web pages. Hundreds of thousands of 
+web pages are available on the World Wide Web that covers information on almost every topic. 
+ 
+Q : 10-03-02 : Explain World Wide Web (WWW) ? 
+Answer : 
+World Wide Web (WWW) : The World Wide Web was launched in 1 989 at the European Particle 
+Physics Laboratory in Geneva, for adding footnote, and cross references in hypertext documents. The 
+www uses http (hyper text transfer protocol) to link hypertext documents (web pages) on the World 
+Wide Web. A web page is a document that is written in HTML (Hypertext Markup Language), in 
+addition to simple text certain tags of HTML are included in the document. The language allows 
+embedding hyperlinks (or simply link) in the document. A hypertext document is also called a Web 
+
+ 57 
+Page. A collection of related web pages is called a Web site. Web sites are hosted on server 
+computers on the Internet. These computers are called Web Servers. The process of launching web 
+page is called publishing the page. 
+ 
+Q : 10-03-02 : Explain URL (Uniform Resource Locator) ? 
+Answer : 
+URL (Uniform Resource Locator) : Every page has a unique address on World Wide Web. This is 
+called Uniform Resource Locator (URL). If you want to access a web page on the World Wide Web, 
+you will have to specify the URL of the required page in the web browser. The general format of the 
+URL is : 
+”type://address/path/” 
+The type specifies the type of the server on which the page is hosted, address specifies the address of 
+the server and path is the path of the page on the disk of the server e.g. http://www.yahoo.com/ . 
+ 
+Q : 10-03-02 : Explain Search Engine ? 
+Answer : 
+Search Engine : A website that uses powerful data searching techniques to help the user locate web 
+sites containing specific types of contents or information is known as a Search Engine e.g. 
+google.com, ask.com, altavista.com etc. are very popular search engines. Search engines have 
+become very popular all over the world. Millions of people use Search Engines to find out 
+information on various topics. Search Engines maintain a list of billions of web pages containing 
+information on variety of topics. Search engines ask you to enter some key words about the data or 
+information you want to search on the Internet. On the basis of your provided information, search 
+engine traverse the list of web pages it maintain, and finally display the links of the web pages 
+containing required information. 
+ 
+10.4 Email  
+ 
+Q : 10-04-01 : Explain Email ? Describe Limitations of Email ? 
+Answer : 
+Email : Email is a system for delivering messages over the Internet. An e-mail sender or recipient 
+can be anywhere in the world. E-mail is the first really popular Internet application; it allows people 
+to hold discussions over great distances. 
+E-Mail can take as little as few seconds to go across a country, or even around the world. 
+It leaves a written record. You can keep copies of e-mail messages you send and receive, for your 
+record. 
+To create, send and receive email you need email-program, also called email client. Once you send 
+the message, your computer connects to your email server and transmits a copy of your message. 
+Email Server is a host computer on the Internet which keeps track of information about millions of 
+email account holders. The server checks the address you have typed and figures out where the 
+recipient email server is. It connects to that server and transmits another copy of the message. Once 
+the receiving email server has received the message, the recipient is able to retrieve the message 
+when connected to the server. Attachment is a powerful feature of email, which enables you to 
+enclosed additional files with your email. You can attach word processing documents, spreadsheets, 
+programs, images, even audio, to your email messages when using email programs that support the 
+Internet protocol for multimedia attachments i.e. MIME (Multipurpose Internet Mail Extension). 
+
+ 58 
+Most email clients allow you attach files to the message. In this way you can send and receive data as 
+well as program files. Attachment size varies from one email service provider to the other e.g. for 
+free email accounts, Yahoo allows a file of size up to 10MB to be attached. This limit varies for paid 
+accounts. 
+ 
+Limitations on Email :  
+Email is Not Necessarily Private : Since messages are passed from one system another, and 
+sometimes through several systems or networks, there are many opportunities for someone to 
+intercept or read email. Many types of computer systems have protections built in to stop users 
+from reading others email, but it is still possible for a system administrator to read the email on 
+a system or for someone to bypass the security of a computer system. 
+Some Email Systems can Send or Receive Text Files Only : Even though you can send and 
+receive images, programs, tiles produced by word processing programs, or multimedia 
+messages, some individuals may not be able to properly view your message. 
+It is possible to Forge Email : This is not common, but it is possible to forge the address of 
+the sender. You may want to take steps to confirm the source of some email you receive. 
+It is Difficult to Express Emotion Using Email : The recipient does not have the benefit of 
+viewing your facial expressions or hearing your voice. You have to be careful with humor or 
+irony, since it is easy for someone to take your message the wrong way. 
+You can Receive Too Much or Unwanted Emails : You can receive “junk” email in the 
+same way you receive other types of junk mail. On the Internet, junk mail is called spam. You 
+may have to take active steps to delete the email you receive and try to stop it from being sent 
+to you in the first place. 
+You may not know about the person with whom you are Communicating : The 
+communication is often in text and it is possible for us to get an incorrect impression of the 
+person sending us email. Also, some people misrepresent themselves. 
+ 
+Q : 10-04-02 : Explain Email Address ? 
+Answer : 
+Email Address : To send and receive an email, you must have an email account on an email server. 
+When you open an email account, you are assigned a unique email address. You receive all incoming 
+emails on this account address and send email to others by specifying their email addresses. The 
+general format of an email address is:  
+User name @ DNS Address like abc@yahoo.com. 
+  
+10.5 Newsgroups  
+ 
+Q : 10-05-01 : Explain Newsgroups ? 
+Answer : 
+Newsgroups : These are discussion groups on the Internet (not on the Web, which is only one area 
+of the Internet). Newsgroups are classified by subject and do not necessarily deal with journalism or 
+“news”. Health, hobbies, celebrities, and cultural events are the subjects of many newsgroups. 
+Participants in a newsgroup conduct discussions by posting messages for others to read, and 
+responding to the messages posted by others. Because you have time to think of what to write in a 
+newsgroup posting, the discussions in newsgroups tend to be of a more serious nature, though not 
+necessarily less amusing. You need software to obtain articles from the news server. A news server is 
+
+ 59 
+a host computer that exchanges articles with other servers on the Internet. These servers use Network 
+News Transfer Protocol (NNTP) to communicate. To view articles on a specific topic, you need to be 
+subscribed on a news group. 
+  
+
+ 60 
+ 
+Code
+Symbol
+Code
+Symbol
+Code
+Symbol
+Code
+Symbol
+Code
+Symbol
+Code
+Symbol
+Code
+Symbol
+0
+null
+37
+%
+74
+J
+111
+o
+148
+ö
+185
+╣
+222
+▐
+1
+start of heading
+38
+&
+75
+K
+112
+p
+149
+ò
+186
+║
+223
+▀
+2
+start of text
+39
+'
+76
+L
+113
+q
+150
+û
+187
+╗
+224
+α
+3
+end of text
+40
+(
+77
+M
+114
+r
+151
+ù
+188
+╝
+225
+ß
+4
+end of transmission
+41
+)
+78
+N
+115
+s
+152
+ÿ
+189
+╜
+226
+Γ
+5
+inquiry
+42
+*
+79
+O
+116
+t
+153
+Ö
+190
+╛
+227
+π
+6
+acknowledge
+43
++
+80
+P
+117
+u
+154
+Ü
+191
+┐
+228
+Σ
+7
+bell
+44
+,
+81
+Q
+118
+v
+155
+¢
+192
+└
+229
+σ
+8
+backspace
+45
+-
+82
+R
+119
+w
+156
+£
+193
+┴
+230
+μ
+9
+horizontal tab
+46
+.
+83
+S
+120
+x
+157
+¥
+194
+┬
+231
+τ
+10
+line feed/new line
+47
+/
+84
+T
+121
+y
+158
+₧
+195
+├
+232
+Φ
+11
+vertical tab
+48
+0
+85
+U
+122
+z
+159
+ƒ
+196
+─
+233
+Θ
+12
+form feed/new page
+49
+1
+86
+V
+123
+{
+160
+á
+197
+┼
+234
+Ω
+13
+carriage return
+50
+2
+87
+w
+124
+|
+161
+í
+198
+╞
+235
+δ
+14
+shift out
+51
+3
+88
+X
+125
+}
+162
+ó
+199
+╟
+236
+∞
+15
+shift in
+52
+4
+89
+Y
+126
+~
+163
+ú
+200
+╚
+237
+φ
+16
+data link escape
+53
+5
+90
+Z
+127
+DEL
+164
+ñ
+201
+╔
+238
+ε
+17
+device control 1
+54
+6
+91
+[
+128
+Ç
+165
+Ñ
+202
+╩
+239
+∩
+18
+device control 2
+55
+7
+92
+\
+129
+ü
+166
+ª
+203
+╦
+240
+≡
+19
+device control 3
+56
+8
+93
+]
+130
+é
+167
+º
+204
+╠
+241
+±
+20
+device control 4
+57
+9
+94
+^
+131
+â
+168
+¿
+205
+═
+242
+≥
+21
+negative acknowledge
+58
+:
+95
+_
+132
+ä
+169
+⌐
+206
+╬
+243
+≤
+22
+synchronous idle
+59
+;
+96
+`
+133
+à
+170
+¬
+207
+╧
+244
+⌠
+23
+end of transmission block
+60
+<
+97
+a
+134
+å
+171
+½
+208
+╨
+245
+⌡
+24
+cancel
+61
+=
+98
+b
+135
+ç
+172
+¼
+209
+╤
+246
+÷
+25
+end of medium
+62
+>
+99
+c
+136
+ê
+173
+¡
+210
+╥
+247
+≈
+26
+substitute
+63
+?
+100
+d
+137
+ë
+174
+«
+211
+╙
+248
+≈
+27
+escape
+64
+@
+101
+e
+138
+è
+175
+»
+212
+Ô
+249
+∙
+28
+file separator
+65
+A
+102
+f
+139
+ï
+176
+░
+213
+╒
+250
+·
+29
+group separator
+66
+B
+103
+g
+140
+î
+177
+▒
+214
+╓
+251
+√
+30
+record separator
+67
+C
+104
+h
+141
+ì
+178
+▓
+215
+╫
+252
+ⁿ
+31
+unit separator
+68
+D
+105
+i
+142
+Ä
+179
+│
+216
+╪
+253
+²
+32
+space
+69
+E
+106
+j
+143
+Å
+180
+┤
+217
+┘
+254
+■
+33
+!
+70
+F
+107
+k
+144
+É
+181
+╡
+218
+┌
+255
+□
+34
+"
+71
+G
+108
+l
+145
+æ
+182
+╢
+219
+█
+35
+#
+72
+H
+109
+m
+146
+Æ
+183
+╖
+220
+▄
+36
+$
+73
+I
+110
+n
+147
+ô
+184
+╕
+221
+▌
+List of ASCII Codes
