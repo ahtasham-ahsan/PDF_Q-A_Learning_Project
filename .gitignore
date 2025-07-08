@@ -3,3 +3,4 @@ package-lock.json
 .env
 Sample.pdf
 Sample.pdf.txt
+client/
