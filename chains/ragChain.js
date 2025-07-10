@@ -19,40 +19,32 @@ export async function createRAGChain(rawText) {
   const className = "PDFDocs";
   await ensurePDFSchemaExists(className);
 
-  // Check if documents exist
-  let count = 0;
+  // Delete all existing documents in PDFDocs before uploading new ones
   try {
-    const stats = await client.graphql
-      .aggregate()
-      .withClassName(className)
-      .withFields("meta { count }")
-      .do();
-    count = stats.data.Aggregate[className][0]?.meta?.count || 0;
+    await client.data.deleter().withClassName(className).do();
+    console.log("🗑️ Cleared old documents from Weaviate PDFDocs class.");
   } catch (err) {
-    console.error("❌ Error accessing Weaviate:", err.message);
-    return;
+    console.error("❌ Error clearing old documents:", err.message);
   }
 
-  if (count === 0) {
-    console.log("📝 No documents found in Weaviate. Uploading...");
-    const splitter = new RecursiveCharacterTextSplitter({
-      chunkSize: 1000,
-      chunkOverlap: 200,
-    });
-    const docs = await splitter.createDocuments([rawText]);
-    for (const doc of docs) {
-      const vector = await embed(doc.pageContent);
-      await client.data
-        .creator()
-        .withClassName(className)
-        .withProperties({ text: doc.pageContent })
-        .withVector(vector)
-        .do();
-    }
-    console.log("✅ Documents uploaded to Weaviate.");
-  } else {
-    console.log("✅ Reusing existing embeddings from Weaviate...");
+  // Upload new PDF chunks
+  console.log("📝 Uploading new PDF...");
+  const splitter = new RecursiveCharacterTextSplitter({
+    chunkSize: 1000,
+    chunkOverlap: 200,
+  });
+  const docs = await splitter.createDocuments([rawText]);
+  for (const doc of docs) {
+    const vector = await embed(doc.pageContent);
+    await client.data
+      .creator()
+      .withClassName(className)
+      .withProperties({ text: doc.pageContent })
+      .withVector(vector)
+      .do();
+    console.log("Uploaded chunk:", doc.pageContent.slice(0, 100)); // Log first 100 chars
   }
+  console.log("✅ Documents uploaded to Weaviate.");
 
   // Retriever function using Weaviate legacy API
   async function retrieveRelevantDocs(query) {
@@ -61,10 +53,17 @@ export async function createRAGChain(rawText) {
       .get()
       .withClassName(className)
       .withFields("text")
-      .withNearVector({ vector: queryVector, certainty: 0.7 })
-      .withLimit(4)
+      .withNearVector({ vector: queryVector, certainty: 0.8 }) // Lowered certainty
+      .withLimit(8)
       .do();
-    return res.data.Get[className]?.map((doc) => doc.text) || [];
+    const docs = res.data.Get[className]?.map((doc) => doc.text) || [];
+    console.log(
+      "Retrieved docs for query:",
+      query,
+      "\n",
+      docs.map((d) => d.slice(0, 100))
+    ); // Log first 100 chars of each doc
+    return docs;
   }
 
   const prompt = PromptTemplate.fromTemplate(
@@ -86,7 +85,9 @@ Question:
     {
       context: async (input) => {
         const docs = await retrieveRelevantDocs(input.question);
-        return docs.join("\n\n");
+        const context = docs.join("\n\n");
+        console.log("Context passed to LLM:", context.slice(0, 500)); // Log first 500 chars
+        return context;
       },
       question: (input) => input.question,
     },
