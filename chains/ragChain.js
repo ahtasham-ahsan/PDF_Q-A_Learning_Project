@@ -53,7 +53,7 @@ export async function createRAGChain(rawText) {
       .get()
       .withClassName(className)
       .withFields("text")
-      .withNearVector({ vector: queryVector, certainty: 0.8 }) // Lowered certainty
+      .withNearVector({ vector: queryVector, certainty: 0.8 })
       .withLimit(8)
       .do();
     const docs = res.data.Get[className]?.map((doc) => doc.text) || [];
@@ -62,7 +62,7 @@ export async function createRAGChain(rawText) {
       query,
       "\n",
       docs.map((d) => d.slice(0, 100))
-    ); // Log first 100 chars of each doc
+    );
     return docs;
   }
 
