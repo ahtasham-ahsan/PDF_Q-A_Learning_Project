@@ -15,7 +15,7 @@ async function embed(text) {
   return res.data[0].embedding;
 }
 
-export async function createRAGChain(rawText) {
+export async function createRAGChain(rawPages) {
   const className = "PDFDocs";
   await ensurePDFSchemaExists(className);
 
@@ -27,22 +27,27 @@ export async function createRAGChain(rawText) {
     console.error("❌ Error clearing old documents:", err.message);
   }
 
-  // Upload new PDF chunks
+  // Upload new PDF chunks with page numbers
   console.log("📝 Uploading new PDF...");
-  const splitter = new RecursiveCharacterTextSplitter({
-    chunkSize: 1000,
-    chunkOverlap: 200,
-  });
-  const docs = await splitter.createDocuments([rawText]);
-  for (const doc of docs) {
-    const vector = await embed(doc.pageContent);
-    await client.data
-      .creator()
-      .withClassName(className)
-      .withProperties({ text: doc.pageContent })
-      .withVector(vector)
-      .do();
-    console.log("Uploaded chunk:", doc.pageContent.slice(0, 100)); // Log first 100 chars
+  for (const page of rawPages) {
+    const splitter = new RecursiveCharacterTextSplitter({
+      chunkSize: 1000,
+      chunkOverlap: 200,
+    });
+    const docs = await splitter.createDocuments([page.pageContent]);
+    for (const doc of docs) {
+      const vector = await embed(doc.pageContent);
+      await client.data
+        .creator()
+        .withClassName(className)
+        .withProperties({ text: doc.pageContent, pageNumber: page.pageNumber })
+        .withVector(vector)
+        .do();
+      console.log(
+        `Uploaded chunk (page ${page.pageNumber}):`,
+        doc.pageContent.slice(0, 100)
+      );
+    }
   }
   console.log("✅ Documents uploaded to Weaviate.");
 
@@ -52,28 +57,26 @@ export async function createRAGChain(rawText) {
     const res = await client.graphql
       .get()
       .withClassName(className)
-      .withFields("text")
+      .withFields("text pageNumber")
       .withNearVector({ vector: queryVector, certainty: 0.8 })
       .withLimit(8)
       .do();
-    const docs = res.data.Get[className]?.map((doc) => doc.text) || [];
+    const docs =
+      res.data.Get[className]?.map((doc) => ({
+        text: doc.text,
+        pageNumber: doc.pageNumber,
+      })) || [];
     console.log(
       "Retrieved docs for query:",
       query,
       "\n",
-      docs.map((d) => d.slice(0, 100))
+      docs.map((d) => `p${d.pageNumber}: ${d.text.slice(0, 100)}`)
     );
     return docs;
   }
 
   const prompt = PromptTemplate.fromTemplate(
-    `You are a helpful assistant. Use the following context to answer the question.
-
-Context:
-{context}
-
-Question:
-{question}`
+    `You are a helpful assistant. Use the following context to answer the question. Cite the page numbers in your answer using [page X] notation when relevant.\n\nContext:\n{context}\n\nQuestion:\n{question}`
   );
 
   const llm = new ChatOpenAI({
@@ -85,7 +88,10 @@ Question:
     {
       context: async (input) => {
         const docs = await retrieveRelevantDocs(input.question);
-        const context = docs.join("\n\n");
+        // Format context with citations
+        const context = docs
+          .map((d) => `Page ${d.pageNumber}:\n${d.text}`)
+          .join("\n\n");
         console.log("Context passed to LLM:", context.slice(0, 500)); // Log first 500 chars
         return context;
       },

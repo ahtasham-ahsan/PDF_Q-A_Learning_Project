@@ -27,6 +27,10 @@ export async function ensurePDFSchemaExists(className) {
               name: "text",
               dataType: ["text"],
             },
+            {
+              name: "pageNumber",
+              dataType: ["int"],
+            },
           ],
         })
         .do();
