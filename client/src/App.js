@@ -1,12 +1,24 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./App.css";
 
+function humanizeResponse(text) {
+  let newText = text;
+  if (/error|fail|problem|issue/i.test(text)) newText = "😅 " + newText;
+  if (/hello|hi|greetings/i.test(text)) newText = "👋 " + newText;
+  if (/thank(s)?|appreciate/i.test(text)) newText += " 🙏";
+  if (/great|good job|well done|awesome/i.test(text)) newText += " 🎉";
+  if (/question|ask/i.test(text)) newText += " 🤔";
+  if (/pdf/i.test(text)) newText += " 📄";
+  if (newText.length < 40) newText = "Here's what I found! 😊\n" + newText;
+  return newText;
+}
+
 function App() {
   const [pdf, setPdf] = useState(null);
   const [uploading, setUploading] = useState(false);
   const [uploaded, setUploaded] = useState(false);
   const [question, setQuestion] = useState("");
-  const [chat, setChat] = useState([]); // {role: 'user'|'model', content: string}
+  const [chat, setChat] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const chatEndRef = useRef(null);
@@ -68,7 +80,13 @@ function App() {
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "Failed to get answer");
-      setChat((prev) => [...prev, { role: "model", content: data.answer }]);
+      setChat((prev) => [
+        ...prev,
+        {
+          role: "model",
+          content: humanizeResponse(data.answer),
+        },
+      ]);
     } catch (err) {
       setError(err.message);
       setChat((prev) => [

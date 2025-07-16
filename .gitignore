@@ -2,3 +2,5 @@ node_modules
 .env
 Sample.pdf
 Sample.pdf.txt
+langGraph/node_modules
+langGraph/.env
