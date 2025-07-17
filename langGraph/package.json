@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,10 +11,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@langchain/anthropic": "^0.3.24",
     "@langchain/community": "^0.3.49",
     "@langchain/core": "^0.3.63",
     "@langchain/langgraph": "^0.3.8",
     "@langchain/openai": "^0.6.1",
     "dotenv": "^17.2.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   }
 }

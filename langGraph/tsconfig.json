@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // ✅ Set at least ES2015 or higher
+    "module": "ESNext", // ✅ Needed for top-level await
+    "lib": ["ES2020", "DOM"],
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+    "skipLibCheck": true, // ✅ Optional: avoid issues in node_modules
+    "strict": true
+  },
+  "include": ["./**/*.ts"]
+}
+
+// {
+//   "compilerOptions": {
+//     "target": "ES2022",
+//     "module": "NodeNext",
+//     "moduleResolution": "NodeNext",
+//     "esModuleInterop": true,
+//     "allowSyntheticDefaultImports": true,
+//     "skipLibCheck": true,
+//     "forceConsistentCasingInFileNames": true,
+//     "strict": true,
+//     "resolveJsonModule": true,
+//     "isolatedModules": true,
+//     "outDir": "./dist"
+//   },
+//   "include": ["./**/*.ts"],
+//   "exclude": ["node_modules"]
+// }
