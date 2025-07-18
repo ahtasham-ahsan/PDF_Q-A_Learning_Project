@@ -8,6 +8,7 @@ import { ChatOpenAI } from "@langchain/openai";
 import { MemorySaver } from "@langchain/langgraph";
 import { HumanMessage } from "@langchain/core/messages";
 import { createReactAgent } from "@langchain/langgraph/prebuilt";
+import { LangChainTracer } from "@langchain/core/tracers/tracer_langchain";
 
 async function main() {
   // Define tools and model
@@ -22,19 +23,24 @@ async function main() {
     checkpointSaver: memory,
   });
 
-  // Run first query
-  const sfState = await agent.invoke(
-    { messages: [new HumanMessage("what is the current weather in Pakistan")] },
-    { configurable: { thread_id: "42" } }
-  );
-  console.log(sfState.messages.slice(-1)[0].content);
+  // Advanced LangSmith tracing: set up a tracer for a custom project
+  const tracer = new LangChainTracer({
+    projectName: process.env.LANGSMITH_PROJECT || "default",
+  });
 
-  // Continue conversation
-  const nyState = await agent.invoke(
-    { messages: [new HumanMessage("what about Sweden")] },
-    { configurable: { thread_id: "42" } }
+  // Run first query with tracer
+  const pakState = await agent.invoke(
+    { messages: [new HumanMessage("what is the current weather in Pakistan")] },
+    { configurable: { thread_id: "42" }, callbacks: [tracer] }
   );
-  console.log(nyState.messages.slice(-1)[0].content);
+  console.log(pakState.messages.slice(-1)[0].content);
+
+  // Continue conversation with tracer
+  const swState = await agent.invoke(
+    { messages: [new HumanMessage("what about Sweden")] },
+    { configurable: { thread_id: "42" }, callbacks: [tracer] }
+  );
+  console.log(swState.messages.slice(-1)[0].content);
 }
 
 main().catch(console.error);

@@ -1,38 +1,57 @@
 import { StateGraph, Annotation } from "@langchain/langgraph";
 import { ChatAnthropic } from "@langchain/anthropic";
+import { LangChainTracer } from "langchain/callbacks";
+
+import { Client } from "langsmith";
+
 import * as dotenv from "dotenv";
 dotenv.config();
 
-process.env.ANTHROPIC_API_KEY;
+// Ensure LangSmith env vars are set
+const LANGCHAIN_API_KEY = process.env.LANGCHAIN_API_KEY;
+const LANGCHAIN_PROJECT = process.env.LANGCHAIN_PROJECT || "default";
+
+if (!LANGCHAIN_API_KEY) {
+  throw new Error("LANGCHAIN_API_KEY is not set. Please check your .env file.");
+}
+const client = new Client({
+  apiUrl: process.env.LANGSMITH_ENDPOINT,
+  apiKey: process.env.LANGCHAIN_API_KEY,
+});
+// Set up LangSmith tracer
+const tracer = new LangChainTracer({
+  projectName: LANGCHAIN_PROJECT,
+  client,
+});
+
 const llm = new ChatAnthropic({
   model: "claude-3-5-sonnet-latest",
+  callbacks: [tracer], 
 });
+
 // Graph state
 const StateAnnotation = Annotation.Root({
-  topic: Annotation<string>,
-  joke: Annotation<string>,
-  improvedJoke: Annotation<string>,
-  finalJoke: Annotation<string>,
+  topic: Annotation<string>(),
+  joke: Annotation<string>(),
+  improvedJoke: Annotation<string>(),
+  finalJoke: Annotation<string>(),
 });
 
-// Define node functions
-
-// First LLM call to generate initial joke
+// Node: Generate joke
 async function generateJoke(state: typeof StateAnnotation.State) {
   const msg = await llm.invoke(`Write a short joke about ${state.topic}`);
   return { joke: msg.content };
 }
 
-// Gate function to check if the joke has a punchline
+// Gate: Check if joke has a punchline
 function checkPunchline(state: typeof StateAnnotation.State) {
-  // Simple check - does the joke contain "?" or "!"
   if (state.joke?.includes("?") || state.joke?.includes("!")) {
     return "Pass";
   }
   return "Fail";
 }
 
-// Second LLM call to improve the joke
+// Node: Improve the joke
 async function improveJoke(state: typeof StateAnnotation.State) {
   const msg = await llm.invoke(
     `Make this joke funnier by adding wordplay: ${state.joke}`
@@ -40,7 +59,7 @@ async function improveJoke(state: typeof StateAnnotation.State) {
   return { improvedJoke: msg.content };
 }
 
-// Third LLM call for final polish
+// Node: Final polish
 async function polishJoke(state: typeof StateAnnotation.State) {
   const msg = await llm.invoke(
     `Add a surprising twist to this joke: ${state.improvedJoke}`
@@ -48,7 +67,7 @@ async function polishJoke(state: typeof StateAnnotation.State) {
   return { finalJoke: msg.content };
 }
 
-// Build workflow
+// Build LangGraph workflow
 const chain = new StateGraph(StateAnnotation)
   .addNode("generateJoke", generateJoke)
   .addNode("improveJoke", improveJoke)
@@ -60,20 +79,30 @@ const chain = new StateGraph(StateAnnotation)
   })
   .addEdge("improveJoke", "polishJoke")
   .addEdge("polishJoke", "__end__")
-  .compile();
+  .compile({
+    callbacks: [tracer],
+  } as any);
 
-// Invoke
-const state = await chain.invoke({ topic: "cats" });
-console.log("Initial joke:");
-console.log(state.joke);
+// Execute the graph with tracing
+const topic = "cats";
+
+console.log(`\n🧠 Running LangGraph with topic: "${topic}"\n`);
+
+const state = await chain.invoke(
+  { topic },
+  {
+    runName: "JokeGeneratorFlow",
+  }
+);
+
+console.log("\n🃏 Initial joke:\n", state.joke);
 console.log("\n--- --- ---\n");
+
 if (state.improvedJoke !== undefined) {
-  console.log("Improved joke:");
-  console.log(state.improvedJoke);
+  console.log("🤣 Improved joke:\n", state.improvedJoke);
   console.log("\n--- --- ---\n");
 
-  console.log("Final joke:");
-  console.log(state.finalJoke);
+  console.log("🎉 Final joke:\n", state.finalJoke);
 } else {
   console.log("Joke failed quality gate - no punchline detected!");
 }

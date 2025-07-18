@@ -1,6 +1,7 @@
 import { StateGraph, Annotation } from "@langchain/langgraph";
 import { ChatAnthropic } from "@langchain/anthropic";
 import * as dotenv from "dotenv";
+import { traceable } from "langsmith/traceable";
 dotenv.config();
 process.env.ANTHROPIC_API_KEY;
 const llm = new ChatAnthropic({
@@ -45,5 +46,9 @@ const parallelWorkflow = new StateGraph(StateAnnotation)
     .addEdge("callLlm3", "aggregator")
     .addEdge("aggregator", "__end__")
     .compile();
-const result = await parallelWorkflow.invoke({ topic: "cats" });
-console.log(result.combinedOutput);
+const tracedWorkflow = traceable(async (input) => {
+    const result = await parallelWorkflow.invoke(input);
+    console.log(result.combinedOutput);
+    return result;
+}, { name: "Parallel LLM Workflow" });
+await tracedWorkflow({ topic: "cats" });

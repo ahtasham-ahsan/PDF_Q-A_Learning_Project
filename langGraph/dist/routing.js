@@ -3,69 +3,59 @@ import { z } from "zod";
 import { ChatAnthropic } from "@langchain/anthropic";
 import * as dotenv from "dotenv";
 dotenv.config();
-process.env.ANTHROPIC_API_KEY;
+const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
+const LANGSMITH_PROJECT = process.env.LANGSMITH_PROJECT || "routing-graph";
+if (!ANTHROPIC_API_KEY)
+    throw new Error("❌ Missing ANTHROPIC_API_KEY");
 const llm = new ChatAnthropic({
     model: "claude-3-5-sonnet-latest",
 });
-// Schema for structured output to use as routing logic
+// Define structured schema for routing decision
 const routeSchema = z.object({
     step: z
         .enum(["poem", "story", "joke"])
         .describe("The next step in the routing process"),
 });
-// Augment the LLM with schema for structured output
-const router = llm.withStructuredOutput(routeSchema);
-// Graph state
-const StateAnnotation = Annotation.Root({
-    input: (Annotation),
-    decision: (Annotation),
-    output: (Annotation),
+// Augment LLM with structured output
+const router = llm.withStructuredOutput(routeSchema, {
+    name: "Router",
 });
-// Nodes
-// Write a story
-async function llmCall1(state) {
+// Define LangGraph state annotations
+const StateAnnotation = Annotation.Root({
+    input: Annotation(),
+    decision: Annotation(),
+    output: Annotation(),
+});
+// LLM nodes
+async function generateStory(state) {
     const result = await llm.invoke([
-        {
-            role: "system",
-            content: "You are an expert storyteller.",
-        },
-        {
-            role: "user",
-            content: state.input,
-        },
-    ]);
+        { role: "system", content: "You are an expert storyteller." },
+        { role: "user", content: state.input },
+    ], {
+        runName: "GenerateStory",
+    });
     return { output: result.content };
 }
-// Write a joke
-async function llmCall2(state) {
+async function generateJoke(state) {
     const result = await llm.invoke([
-        {
-            role: "system",
-            content: "You are an expert comedian.",
-        },
-        {
-            role: "user",
-            content: state.input,
-        },
-    ]);
+        { role: "system", content: "You are an expert comedian." },
+        { role: "user", content: state.input },
+    ], {
+        runName: "GenerateJoke",
+    });
     return { output: result.content };
 }
-// Write a poem
-async function llmCall3(state) {
+async function generatePoem(state) {
     const result = await llm.invoke([
-        {
-            role: "system",
-            content: "You are an expert poet.",
-        },
-        {
-            role: "user",
-            content: state.input,
-        },
-    ]);
+        { role: "system", content: "You are an expert poet." },
+        { role: "user", content: state.input },
+    ], {
+        runName: "GeneratePoem",
+    });
     return { output: result.content };
 }
-async function llmCallRouter(state) {
-    // Route the input to the appropriate node
+// Routing node
+async function routeInput(state) {
     const decision = await router.invoke([
         {
             role: "system",
@@ -78,38 +68,39 @@ async function llmCallRouter(state) {
     ]);
     return { decision: decision.step };
 }
-// Conditional edge function to route to the appropriate node
+// Conditional logic for routing
 function routeDecision(state) {
-    // Return the node name you want to visit next
-    if (state.decision === "story") {
-        return "llmCall1";
+    switch (state.decision) {
+        case "story":
+            return "generateStory";
+        case "joke":
+            return "generateJoke";
+        case "poem":
+            return "generatePoem";
+        default:
+            throw new Error(`❌ Unknown routing decision: ${state.decision}`);
     }
-    else if (state.decision === "joke") {
-        return "llmCall2";
-    }
-    else if (state.decision === "poem") {
-        return "llmCall3";
-    }
-    throw new Error(`Unknown decision: ${state.decision}`);
 }
-// Build workflow
+// Build LangGraph workflow
 const routerWorkflow = new StateGraph(StateAnnotation)
-    .addNode("llmCall1", llmCall1)
-    .addNode("llmCall2", llmCall2)
-    .addNode("llmCall3", llmCall3)
-    .addNode("llmCallRouter", llmCallRouter)
-    .addEdge("__start__", "llmCallRouter")
-    .addConditionalEdges("llmCallRouter", routeDecision, [
-    "llmCall1",
-    "llmCall2",
-    "llmCall3",
+    .addNode("generateStory", generateStory)
+    .addNode("generateJoke", generateJoke)
+    .addNode("generatePoem", generatePoem)
+    .addNode("routeInput", routeInput)
+    .addEdge("__start__", "routeInput")
+    .addConditionalEdges("routeInput", routeDecision, [
+    "generateStory",
+    "generateJoke",
+    "generatePoem",
 ])
-    .addEdge("llmCall1", "__end__")
-    .addEdge("llmCall2", "__end__")
-    .addEdge("llmCall3", "__end__")
+    .addEdge("generateStory", "__end__")
+    .addEdge("generateJoke", "__end__")
+    .addEdge("generatePoem", "__end__")
     .compile();
-// Invoke
-const state = await routerWorkflow.invoke({
-    input: "Write me a joke about cats",
+// Invoke the graph
+const inputText = "Write me a joke about cats";
+console.log(`\n🧠 Invoking LangGraph with input: "${inputText}"\n`);
+const finalState = await routerWorkflow.invoke({ input: inputText }, {
+    runName: "DynamicRoutingGraph",
 });
-console.log(state.output);
+console.log("\n🎯 Final Output:\n", finalState.output);

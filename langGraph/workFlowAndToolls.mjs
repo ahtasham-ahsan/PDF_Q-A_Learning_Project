@@ -1,81 +1,100 @@
 import { tool } from "@langchain/core/tools";
 import { z } from "zod";
 import { ChatAnthropic } from "@langchain/anthropic";
+import { LangChainTracer } from "langchain/callbacks";
 import dotenv from "dotenv";
 dotenv.config();
-process.env.ANTHROPIC_API_KEY;
+
+const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
+const LANGCHAIN_API_KEY = process.env.LANGCHAIN_API_KEY;
+const LANGCHAIN_PROJECT = process.env.LANGCHAIN_PROJECT || "default";
+
+if (!ANTHROPIC_API_KEY) throw new Error("Missing ANTHROPIC_API_KEY");
+if (!LANGCHAIN_API_KEY) throw new Error("Missing LANGCHAIN_API_KEY");
+
+const tracer = new LangChainTracer({
+  projectName: LANGCHAIN_PROJECT,
+});
+
 const llm = new ChatAnthropic({
   model: "claude-3-5-sonnet-latest",
+  callbacks: [tracer],
 });
 
+// Define Zod schema for structured output
 const searchQuerySchema = z.object({
-  searchQuery: z.string().describe("Query that is optimized web search."),
-  justification: z.string("Why this query is relevant to the user's request."),
+  searchQuery: z.string().describe("Query that is optimized for web search."),
+  justification: z
+    .string()
+    .describe("Why this query is relevant to the user's request."),
 });
 
-// Augment the LLM with schema for structured output
+// Use structured output wrapper
 const structuredLlm = llm.withStructuredOutput(searchQuerySchema, {
   name: "searchQuery",
 });
 
-// Invoke the augmented LLM
+// Invoke LLM with structured output
 const output = await structuredLlm.invoke(
-  "How does Calcium CT score relate to high cholesterol?"
-);
-console.log(output);
-const add = tool(
-  async ({ a, b }) => {
-    return a + b;
-  },
+  "How does Calcium CT score relate to high cholesterol?",
   {
-    name: "add",
-    description: "Add two numbers",
-    schema: z.object({
-      a: z.number("First Number"),
-      b: z.number("Second Number"),
-    }),
+    runName: "SearchQueryStructuredOutput",
   }
 );
-const mathTool = tool(
+console.log("🔍 Structured Output:\n", output);
+
+// Define math tools
+const add = tool(async ({ a, b }) => a + b, {
+  name: "add",
+  description: "Add two numbers together.",
+  schema: z.object({
+    a: z.number().describe("The first number"),
+    b: z.number().describe("The second number"),
+  }),
+});
+
+const subtract = tool(async ({ a, b }) => a - b, {
+  name: "subtract",
+  description: "Subtract two numbers.",
+  schema: z.object({
+    a: z.number().describe("The number to subtract from"),
+    b: z.number().describe("The number to subtract"),
+  }),
+});
+
+const multiply = tool(async ({ a, b }) => a * b, {
+  name: "multiply",
+  description: "Multiply two numbers.",
+  schema: z.object({
+    a: z.number().describe("The first number"),
+    b: z.number().describe("The second number"),
+  }),
+});
+
+const calculator = tool(
   async (input) => {
-    return eval(input);
+    try {
+      return eval(input);
+    } catch {
+      return "Invalid math expression.";
+    }
   },
   {
     name: "calculator",
-    description: "Performs basic math operations",
+    description: "Evaluate a basic math expression as a string input.",
   }
 );
 
-const subtract = tool(
-  async ({ a, b }) => {
-    return a - b;
-  },
-  {
-    name: "subtract",
-    description: "Subtract two numbers",
-    schema: z.object({
-      a: z.number("First Number"),
-      b: z.number("Second Number"),
-    }),
-  }
+// Bind tools to the LLM
+const llmWithTools = llm.bindTools([add, subtract, multiply, calculator]);
+
+// Invoke LLM using tools
+const mathMessage = await llmWithTools.invoke("What is 2+3?", {
+  runName: "SimpleMathQuestion",
+});
+
+console.log(
+  "\n🧮 Tool Calls:\n",
+  mathMessage.tool_calls ?? "No tools were used."
 );
-
-const multiply = tool(
-  async ({ a, b }) => {
-    return a * b;
-  },
-  {
-    name: "multiply",
-    description: "multiplies two numbers together",
-    schema: z.object({
-      a: z.number("the first number"),
-      b: z.number("the second number"),
-    }),
-  }
-);
-
-const llmWithTools = llm.bindTools([add, subtract, multiply, mathTool]);
-
-const message = await llmWithTools.invoke("What is 2+3?");
-
-console.log(message.tool_calls);
+console.log("\n🗣️ LLM Response:\n", mathMessage.content);
