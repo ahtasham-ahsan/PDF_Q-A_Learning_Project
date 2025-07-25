@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
+import Navbar from "./components/Navbar";
 import "./App.css";
 
 function humanizeResponse(text) {
@@ -169,6 +170,8 @@ function App() {
   };
 
   return (
+    <>
+    <Navbar />
     <div className="chatgpt-root">
       <aside className="sidebar">
         <h2>PDF Q&A</h2>
@@ -263,6 +266,7 @@ function App() {
         </form>
       </main>
     </div>
+    </>
   );
 }
 
