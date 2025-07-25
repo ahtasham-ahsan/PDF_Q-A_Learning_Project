@@ -123,8 +123,3 @@ PDF_Q-A_Learning_Project/
 
 - [Muhammad Ahtasham](https://atiiisham.vercel.app/) ([LinkedIn](https://www.linkedin.com/in/muhammadahtasham/))
 
----
-
-## 📜 License
-
-MIT
