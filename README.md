@@ -42,7 +42,7 @@ A full-stack Retrieval-Augmented Generation (RAG) project that lets you **ask qu
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/pdf-qa-weaviate-langchain.git
+git clone https://github.com/ahtasham-ahsan/PDF_Q-A_Learning_Project.git
 cd PDF_Q-A_Learning_Project
 ```
 
@@ -123,8 +123,3 @@ PDF_Q-A_Learning_Project/
 
 - [Muhammad Ahtasham](https://atiiisham.vercel.app/) ([LinkedIn](https://www.linkedin.com/in/muhammadahtasham/))
 
----
-
-## 📜 License
-
-MIT
