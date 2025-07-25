@@ -17,15 +17,14 @@ async function embed(text) {
 
 export async function createRAGChain(rawPages) {
   const className = "PDFDocs";
-  await ensurePDFSchemaExists(className);
 
-  // Delete all existing documents in PDFDocs before uploading new ones
   try {
-    await client.data.deleter().withClassName(className).do();
-    console.log("🗑️ Cleared old documents from Weaviate PDFDocs class.");
+    await client.schema.classDeleter().withClassName(className).do();
+    console.log(`🗑️ Deleted class: ${className}`);
   } catch (err) {
-    console.error("❌ Error clearing old documents:", err.message);
+    console.warn(`⚠️ Could not delete class (may not exist yet): ${err.message}`);
   }
+  await ensurePDFSchemaExists(className);
 
   // Upload new PDF chunks with page numbers
   console.log("📝 Uploading new PDF...");
@@ -37,16 +36,19 @@ export async function createRAGChain(rawPages) {
     const docs = await splitter.createDocuments([page.pageContent]);
     for (const doc of docs) {
       const vector = await embed(doc.pageContent);
-      await client.data
-        .creator()
-        .withClassName(className)
-        .withProperties({ text: doc.pageContent, pageNumber: page.pageNumber })
-        .withVector(vector)
-        .do();
-      console.log(
-        `Uploaded chunk (page ${page.pageNumber}):`,
-        doc.pageContent.slice(0, 100)
-      );
+      try {
+        await client.data
+          .creator()
+          .withClassName(className)
+          .withProperties({ text: doc.pageContent, pageNumber: page.pageNumber })
+          .withVector(vector)
+          .do();
+      
+        console.log(`✅ Uploaded chunk (page ${page.pageNumber})`);
+      } catch (err) {
+        console.error(`❌ Failed to upload chunk (page ${page.pageNumber}):`, err.message);
+      }
+      
     }
   }
   console.log("✅ Documents uploaded to Weaviate.");
