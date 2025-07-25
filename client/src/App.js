@@ -261,11 +261,6 @@ function App() {
             {loading ? "..." : "Send"}
           </button>
         </form>
-        {processing && (
-          <div style={{ marginTop: 10, color: '#ffa500', fontWeight: 500 }}>
-            Processing PDF(s)... You can ask questions, but answers may not be available until processing is done.
-          </div>
-        )}
       </main>
     </div>
   );
